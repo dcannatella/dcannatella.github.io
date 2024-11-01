@@ -1,4 +1,4 @@
-baseurl: /https://dcannatella.github.io/
+baseURL: "https://dcannatella.github.io/"
 languageCode: en-US
 title: Daniele Cannatella's personal website
 theme: hugo-lithium
