@@ -18,8 +18,8 @@ menu:
       url: https://twitter.com/rstudio
     - name: Ciao
       url: https://bookdown.org/yihui/blogdown/a-quick-example.html#prerequisites
-    - name: Research
-      url: /research/
+    - name: Teaching
+      url: /teaching/
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
