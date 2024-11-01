@@ -1,6 +1,6 @@
 baseurl: /
 languageCode: en-US
-title: A Hugo website
+title: Daniele Cannatella's personal website
 theme: hugo-lithium
 ignoreFiles:
   - \.Rmd$
@@ -16,6 +16,8 @@ menu:
       url: https://github.com/rstudio/blogdown
     - name: Twitter
       url: https://twitter.com/rstudio
+    - name: Ciao
+      url: https://bookdown.org/yihui/blogdown/a-quick-example.html#prerequisites
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
