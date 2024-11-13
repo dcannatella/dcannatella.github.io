@@ -12,14 +12,9 @@ redirect_from:
 Education
 ======
 * Ph.D. in Urban Planning, 2017
-  * University of Naples ‘Federico II’ - Faculty of Architecture  
-* Second level university master course in Sustainable Planning and Design of Port Areas, 2013
-  * University of Naples ‘Federico II’ - Faculty of Architecture     
-* Master’s degree in Regional and Urban Planning, Urban and Landscape-Environmental design,
-(summa cum laude), 2011
-  * University of Naples ‘Federico II’ - Faculty of Architecture
-* Bachelor degree in Urban Planning and Spatial and Environmental Planning Sciences, 2008
-  * University of Naples ‘Federico II’ - Faculty of Architecture 
+* Ms in Sustainable Planning and Design of Port Areas, 2013
+* Ms in Regional and Urban Planning, Urban and Landscape-Environmental design, (summa cum laude), 2011
+* Bs in Urban Planning and Spatial and Environmental Planning Sciences, 2008
 
 
 Work experience
