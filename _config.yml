@@ -12,7 +12,7 @@ title                    : "Daniele Cannatella's Personal Website"
 title_separator          : "-"
 name                     : &name "Daniele Cannatella"
 description              : &description "personal description"
-url                      : https://dcannatella.github.io"
+URL                      : "https://dcannatella.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "dcannatella/dcannatella.github.io"
 
