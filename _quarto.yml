@@ -1,0 +1,39 @@
+project:
+  type: website
+
+website:
+  title: "Daniele Cannatella"
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+
+      - text: Teaching
+        menu:
+          - href: education.qmd
+            text: Courses
+          - href: thesesprojects.qmd
+            text: Supervised Work
+
+      - text: Research
+        menu:
+          - href: research.qmd
+            text: Overview
+          - href: projects.qmd
+            text: Projects
+
+      - href: publications.qmd
+        text: Publications
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
+    sidebar: false
+    breadcrumbs: true
+    bibliography: works.bib
+    # csl: apa.csl
+
+editor: visual

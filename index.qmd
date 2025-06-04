@@ -1,0 +1,12 @@
+---
+title: "Daniele Cannatella"
+subtitle: "Assistant Professor in Urban Data for Design"
+---
+
+![](images/daniele.jpg){.rounded-circle .img-fluid alt="Daniele Cannatella" fig-align="center" width="180"}
+
+Hi! I’m Daniele Cannatella, an Assistant Professor in Urban Data for Design at TU Delft, in the Department of Urbanism. My work sits at the intersection of cities, data, and design — I’m especially interested in how computational tools can help us better understand and shape urban environments.
+
+I’m passionate about combining design thinking with data-driven approaches to support more inclusive, creative, and informed urban futures. I enjoy working across disciplines, experimenting with digital tools, and translating complex spatial information into meaningful insights for planning and design. [Learn more](about.qmd)
+
+I also run **Rbanism**, a platform where I share research, tools, and reflections on data-driven urbanism.

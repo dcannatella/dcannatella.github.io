@@ -1,0 +1,7 @@
+---
+title: "Theses supervised"
+bibliography: supervisions.bib
+nocite: "@*"
+csl: apa.csl
+output: html_document
+---
