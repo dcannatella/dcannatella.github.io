@@ -17,8 +17,9 @@ website:
 format:
   html:
     theme:
+      - yeti
+      - lux
       - flatly
-      - cosmo
     css: styles.css
     toc: true
 
