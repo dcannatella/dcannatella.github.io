@@ -1,5 +1,6 @@
 ---
 title: "Daniele Cannatella"
+subtitle: "Urbanist | GIS Expert | Assistant Professor in Urban Data for Design"
 ---
 
 I’m an urban planner with a background in landscape architecture and a strong interest in digital mapping, spatial analysis, and urban analytics.
