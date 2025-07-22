@@ -11,13 +11,14 @@ website:
       - research.qmd
       - education.qmd
       - about.qmd
+    right:
+      - contact.qmd
 
 format:
   html:
     theme:
-      - zephyr
+      - flatly
       - cosmo
-      - brand
     css: styles.css
     toc: true
 
