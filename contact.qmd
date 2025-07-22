@@ -1,0 +1,20 @@
+---
+title: "Contact me"
+format: html
+---
+ 
+If you’d like to get in touch, feel free to reach out.
+
+Whether you’re a student, researcher, practitioner, or just curious about my work, I’m happy to connect.
+
+Email: [d.cannatella@tudelft.nl]
+Institutional page: [https://www.tudelft.nl/en/staff/d.cannatella/]
+Location: TU Delft, Faculty of Architecture and the Built Environment
+
+You can also follow or message me on:
+
+Twitter/X
+
+GitHub (if relevant)
+
+For project collaborations, supervision opportunities, or guest lectures, please include a short description in your message.
