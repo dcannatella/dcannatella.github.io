@@ -20,7 +20,9 @@ format:
       light: flatly
       dark: darkly
     css: styles.css
-    toc: true
+    includes:
+      in_header: bootstrap.cdn.html
+    toc: false
 
 editor: visual
 

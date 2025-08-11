@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Contact me – Daniele Cannatella</title>
+<title>Contact Me – Daniele Cannatella</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -110,7 +110,7 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link active" href="./contact.html" aria-current="page"> 
-<span class="menu-text">Contact me</span></a>
+<span class="menu-text">Contact Me</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -124,15 +124,13 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Contact me</h1>
+<h1 class="title">Contact Me</h1>
 </div>
 
 
@@ -149,16 +147,52 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="contact-me" class="level2 container my-4">
+<h2 class="anchored" data-anchor-id="contact-me">Contact Me</h2>
 <p>If you’d like to get in touch, feel free to reach out.</p>
 <p>Whether you’re a student, researcher, practitioner, or just curious about my work, I’m happy to connect.</p>
-<p><strong>Dr.&nbsp;Daniele Cannatella</strong></p>
-<p>Email: [d.cannatella@tudelft.nl]</p>
-<p><a href="https://www.tudelft.nl/en/staff/d.cannatella/">Institutional page</a></p>
-<p>Location: TU Delft, Faculty of Architecture and the Built Environment</p>
+<section id="dr.-daniele-cannatella" class="level3 card">
+<h3 class="anchored" data-anchor-id="dr.-daniele-cannatella">Dr.&nbsp;Daniele Cannatella</h3>
+<p>If you’d like to get in touch, feel free to reach out.</p>
+<p><strong>Email:</strong> <a href="mailto:d.cannatella@tudelft.nl">d.cannatella@tudelft.nl</a><br>
+<strong>Institutional page:</strong> <a href="https://www.tudelft.nl/architecture/about-faculty/staff/dr-daniele-cannatella">TU Delft Profile</a><br>
+<strong>Location:</strong> TU Delft, Faculty of Architecture and the Built Environment</p>
+</section>
+<section id="follow-me" class="level3 card">
+<h3 class="anchored" data-anchor-id="follow-me">Follow me</h3>
 <p>You can also follow or message me on:</p>
-<p>Twitter/X</p>
-<p>GitHub (if relevant)</p>
+<ul>
+<li><a href="https://twitter.com/danielecannat">Twitter/X</a><br>
+</li>
+<li><a href="https://github.com/dcannatella/">GitHub</a></li>
+</ul>
+</section>
+<section id="collaborations" class="level3 card">
+<h3 class="anchored" data-anchor-id="collaborations">Collaborations</h3>
 <p>For project collaborations, supervision opportunities, or guest lectures, please include a short description in your message.</p>
+</section>
+<!-- Leaflet map container -->
+<div id="map" style="height: 350px; margin-top: 2rem; border-radius: 0.3rem; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+
+</div>
+</section>
+<!-- Leaflet CSS & JS -->
+<p><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"></p>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var map = L.map('map').setView([52.005656, 4.369719], 15);
+
+    L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png', {
+      maxZoom: 20,
+      attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    L.marker([52.005656, 4.369719]).addTo(map)
+      .bindPopup("<b>TU Delft</b><br>Faculty of Architecture and the Built Environment")
+      .openPopup();
+  });
+</script>
 
 
 

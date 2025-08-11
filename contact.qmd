@@ -1,24 +1,67 @@
 ---
-title: "Contact me"
+title: "Contact Me"
 format: html
 ---
+
+::::: {.container .my-4}
+## Contact Me
 
 If you’d like to get in touch, feel free to reach out.
 
 Whether you’re a student, researcher, practitioner, or just curious about my work, I’m happy to connect.
 
-**Dr. Daniele Cannatella**
+::: {.card}
+### Dr. Daniele Cannatella
 
-Email: \[d.cannatella\@tudelft.nl\]
+If you’d like to get in touch, feel free to reach out.
 
-[Institutional page](https://www.tudelft.nl/en/staff/d.cannatella/)
+**Email:** [d.cannatella@tudelft.nl](mailto:d.cannatella@tudelft.nl)  
+**Institutional page:** [TU Delft Profile](https://www.tudelft.nl/architecture/about-faculty/staff/dr-daniele-cannatella)  
+**Location:** TU Delft, Faculty of Architecture and the Built Environment
+:::
 
-Location: TU Delft, Faculty of Architecture and the Built Environment
+::: {.card}
+### Follow me
 
 You can also follow or message me on:
 
-Twitter/X
+- [Twitter/X](https://twitter.com/danielecannat)  
+- [GitHub](https://github.com/dcannatella/)
+:::
 
-GitHub (if relevant)
+::: {.card}
+### Collaborations
 
 For project collaborations, supervision opportunities, or guest lectures, please include a short description in your message.
+:::
+
+<!-- Leaflet map container -->
+
+::: {#map style="height: 350px; margin-top: 2rem; border-radius: 0.3rem; box-shadow: 0 0 10px rgba(0,0,0,0.1);"}
+:::
+:::::
+
+<!-- Leaflet CSS & JS -->
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+```{=html}
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+```
+
+```{=html}
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var map = L.map('map').setView([52.005656, 4.369719], 15);
+
+    L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png', {
+      maxZoom: 20,
+      attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    L.marker([52.005656, 4.369719]).addTo(map)
+      .bindPopup("<b>TU Delft</b><br>Faculty of Architecture and the Built Environment")
+      .openPopup();
+  });
+</script>
+```
