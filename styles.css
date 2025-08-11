@@ -1,1 +1,127 @@
 /* css styles */
+
+/* General font settings */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Headings spacing */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+}
+
+/* Links - consistent color & underline on hover */
+a {
+  color: #007bff; /* Bootstrap primary blue */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover, a:focus {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Subtitle */
+.subtitle.lead {
+  font-size: 1rem;          /* adjust font size */
+  color: #4a4a4a;             /* subtle dark gray */
+  font-weight: 400;           /* normal weight */
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.03em;     /* slight letter spacing */
+  /* add more styles as needed */
+}
+
+
+/* Navbar tweaks - add spacing between items */
+.navbar-nav > li + li {
+  margin-left: 1rem;
+}
+
+/* Responsive container max width */
+.container, .container-fluid {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Table styling */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+table th,
+table td {
+  border: 1px solid #dee2e6;
+  padding: 0.75rem;
+  vertical-align: top;
+}
+
+/* Code block customizations */
+pre {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  overflow-x: auto;
+}
+
+/* Dark mode specific overrides */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+    color: #e1e1e1;
+  }
+  a {
+    color: #66aaff;
+  }
+  a:hover, a:focus {
+    color: #99ccff;
+  }
+  pre {
+    background-color: #2a2a2a;
+  }
+  table th,
+  table td {
+    border-color: #444;
+  }
+}
+
+
+
+/* Make card text consistent and clean */
+.card {
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: none;
+}
+
+/* Hover effect */
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+}
+
+/* Card body spacing */
+.card-body {
+  padding: 1.25rem;
+  font-size: 0.95rem;
+}
+
+/* Card footer alignment */
+.card-footer {
+  background: none;
+  border-top: none;
+  padding-top: 0;
+}
+
+/* Make buttons match the theme */
+.card-footer .btn {
+  border-radius: 20px;
+  font-size: 0.85rem;
+}
