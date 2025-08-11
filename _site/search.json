@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "&lt;h1&gt;Urbanist & Assistant Professor&lt;/h1&gt;\n&lt;h3&gt;Urban Data for Design — TU Delft&lt;/h3&gt;\n&lt;p&gt;\n  I am &lt;strong&gt;Daniele Cannatella&lt;/strong&gt;, Assistant Professor in &lt;em&gt;Urban Data for Design&lt;/em&gt; \n  at the Faculty of Architecture and the Built Environment, &lt;strong&gt;TU Delft&lt;/strong&gt;, Department of Urbanism.\n&lt;/p&gt;\n&lt;p&gt;\n  My work bridges &lt;strong&gt;spatial analytics&lt;/strong&gt;, &lt;strong&gt;climate adaptation&lt;/strong&gt;, \n  and &lt;strong&gt;landscape-based regional design&lt;/strong&gt; to support evidence-based planning and design \n  for resilient and sustainable cities.\n&lt;/p&gt;\n&lt;p&gt;\n  I collaborate with &lt;strong&gt;municipalities&lt;/strong&gt;, &lt;strong&gt;research institutions&lt;/strong&gt;, and &lt;strong&gt;students&lt;/strong&gt; \n  to develop strategies that combine analytical rigor with design innovation.\n&lt;/p&gt;\n\n\n\n&lt;img src=\"images/portrait.jpg\" class=\"img-fluid rounded-circle shadow\" alt=\"Daniele Cannatella\"&gt;\n\n\n\n\n\n\n&lt;div class=\"card h-100 shadow-sm border-0\"&gt;\n  &lt;div class=\"card-body\"&gt;\n    &lt;h4 class=\"card-title\"&gt;Research & Collaboration&lt;/h4&gt;\n    &lt;p class=\"card-text\"&gt;Developing tools and methods that integrate data analysis with design practice.&lt;/p&gt;\n    &lt;a href=\"research.qmd\" class=\"btn btn-primary\"&gt;Learn more&lt;/a&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n\n\n\n&lt;div class=\"card h-100 shadow-sm border-0\"&gt;\n  &lt;div class=\"card-body\"&gt;\n    &lt;h4 class=\"card-title\"&gt;Projects&lt;/h4&gt;\n    &lt;p class=\"card-text\"&gt;Applied work with municipalities and regions on climate adaptation and spatial resilience.&lt;/p&gt;\n    &lt;a href=\"projects.qmd\" class=\"btn btn-primary\"&gt;View projects&lt;/a&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n\n\n\n&lt;div class=\"card h-100 shadow-sm border-0\"&gt;\n  &lt;div class=\"card-body\"&gt;\n    &lt;h4 class=\"card-title\"&gt;Teaching & Supervision&lt;/h4&gt;\n    &lt;p class=\"card-text\"&gt;Guiding MSc and PhD students in data-driven urbanism, design methods, and spatial analytics.&lt;/p&gt;\n    &lt;a href=\"teaching.qmd\" class=\"btn btn-primary\"&gt;See teaching&lt;/a&gt;\n  &lt;/div&gt;\n&lt;/div&gt;"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact me",
+    "section": "",
+    "text": "If you’d like to get in touch, feel free to reach out.\nWhether you’re a student, researcher, practitioner, or just curious about my work, I’m happy to connect.\nDr. Daniele Cannatella\nEmail: [d.cannatella@tudelft.nl]\nInstitutional page\nLocation: TU Delft, Faculty of Architecture and the Built Environment\nYou can also follow or message me on:\nTwitter/X\nGitHub (if relevant)\nFor project collaborations, supervision opportunities, or guest lectures, please include a short description in your message."
+  },
+  {
+    "objectID": "about.html#skills",
+    "href": "about.html#skills",
+    "title": "About me",
+    "section": "Skills",
+    "text": "Skills\n\nSpatial Design\nLandscape-Based Regional Design, GBI Planning, Climate adaptation\n\n\nQuantitative Analysis\nSpatial Analysis and Mapping\n\n\nGeomatics and Programming\nR, Markdown, Shiny, Quarto, Leaflet, GIS software"
+  },
+  {
+    "objectID": "index.html#data-driven-strategies-for-climate-resilient-cities",
+    "href": "index.html#data-driven-strategies-for-climate-resilient-cities",
+    "title": "Home",
+    "section": "",
+    "text": "I am Daniele Cannatella, an urbanist and Assistant Professor at [University Name]. My work bridges spatial analytics, climate adaptation, and participatory planning to help cities develop resilient, data-driven strategies.\nI collaborate with municipalities, researchers, and students to design solutions that are both innovative and grounded in practice."
+  },
+  {
+    "objectID": "index.html#quick-links",
+    "href": "index.html#quick-links",
+    "title": "Home",
+    "section": "",
+    "text": "Research & Collaboration\nProjects\nTeaching & Supervision\nContact\n\n\n\n\nAerial view of a city with green infrastructure"
+  },
+  {
+    "objectID": "index.html#urban-data-for-design-tu-delft",
+    "href": "index.html#urban-data-for-design-tu-delft",
+    "title": "Home",
+    "section": "",
+    "text": "I am Daniele Cannatella, Assistant Professor in Urban Data for Design at the Faculty of Architecture and the Built Environment, TU Delft, Department of Urbanism.\nMy work bridges spatial analytics, climate adaptation, and landscape-based regional design to support evidence-based planning and design for resilient and sustainable cities.\nI collaborate with municipalities, research institutions, and students to develop strategies that combine analytical rigor with design innovation."
+  },
+  {
+    "objectID": "index.html#what-i-do",
+    "href": "index.html#what-i-do",
+    "title": "Home",
+    "section": "",
+    "text": "Research & Collaboration — Developing tools and methods that integrate data analysis with design practice.\n\nApplied Projects — Working with municipalities and regions to address climate adaptation and spatial resilience.\n\nTeaching & Supervision — Guiding MSc and PhD students in data-driven urbanism, design methods, and spatial analytics."
+  }
+]
