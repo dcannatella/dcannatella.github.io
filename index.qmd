@@ -28,7 +28,7 @@ As **Assistant Professor of Urban Data Science** at **TU Delft**, I combine **re
 
 :::::: columns
 ::: {.column width="30%"}
-#### Teaching & Supervision
+#### Teaching & Supervision1
 
 :::
 
