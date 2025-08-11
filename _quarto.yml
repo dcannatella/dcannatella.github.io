@@ -17,11 +17,11 @@ website:
 format:
   html:
     theme:
-      - yeti
-      - lux
-      - flatly
+      light: flatly
+      dark: darkly
     css: styles.css
     toc: true
 
 editor: visual
+
 

@@ -4,14 +4,16 @@ title: "About me"
 
 ## Education
 
-
 ## Skills
 
 ### Spatial Design
+
 Landscape-Based Regional Design, GBI Planning, Climate adaptation
 
 ### Quantitative Analysis
+
 Spatial Analysis and Mapping
 
 ### Geomatics and Programming
+
 R, Markdown, Shiny, Quarto, Leaflet, GIS software
