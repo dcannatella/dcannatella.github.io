@@ -7,11 +7,39 @@
     "text": "I’m an urban planner with a landscape architecture background, specializing in digital mapping, spatial analysis, and urban analytics.\nMy research develops data-driven, nature-based strategies to help cities adapt to climate change while promoting equity and sustainability.\nAs Assistant Professor of Urban Data Science at TU Delft, I combine research, teaching, and design to advance evidence-based decision-making in urban and territorial planning.\n\n\n\n\n\n\n\n\n\nResearch\n\n\n\n\n\nTeaching & Supervision\n\n\n\n\n\nTeaching & Supervision"
   },
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "I’m an urban planner with a landscape architecture background, specializing in digital mapping, spatial analysis, and urban analytics. My research and teaching focus on data-supported planning and design for resilient and sustainable urban environments. I combine spatial data analysis, visualization, and multi-criteria decision-making to support strategic, cross-scalar planning."
+  },
+  {
+    "objectID": "about.html#professional-activities",
+    "href": "about.html#professional-activities",
+    "title": "About Me",
+    "section": "Professional Activities",
+    "text": "Professional Activities\n\n\n\n2022 – Present\n\n\n\nAssistant Professor in Urban Data for Design\n\n\nFaculty of Architecture and the Built Environment, TU Delft, department of Urbanism\n\n\n\n\n\n2018 – 2022\n\n\n\nPostdoctoral Researcher\n\n\nFaculty of Architecture and the Built Environment, TU Delft, department of Urbanism\n\n\n\n\n\n2014 – 2017\n\n\n\nResearcher\n\n\nCNR-IRISS (Italian National Research Council)\n\n\n\n\n\n2013 – 2016\n\n\n\nJunior Researcher\n\n\nUniversity of Naples ‘Federico II’ - Faculty of Architecture\n\n\n\n\n\n2013 – 2016\n\n\n\nUrban Designer\n\n\nArchitectural firm Gasparrini"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About Me",
+    "section": "Education",
+    "text": "Education\n\n\n\n2017\n\n\n\nPhD in Urban Planning\n\n\nUniversity of Naples ‘Federico II’ - Faculty of Architecture\n\n\n\n\n\n2013\n\n\n\nMaster in Sustainable Panning and Design of Port Areas\n\n\nUniversity of Naples ‘Federico II’ - Faculty of Architecture\n\n\n\n\n\n2011\n\n\n\nMaster in Regional and Urban Planning | summa cum laude\n\n\nUniversity of Naples ‘Federico II’ - Faculty of Architecture\n\n\n\n\n\n2008\n\n\n\nBSc in Urban Planning and Spatial and Environmental Planning Sciences\n\n\nUniversity of Naples ‘Federico II’ - Faculty of Architecture"
+  },
+  {
     "objectID": "about.html#skills",
     "href": "about.html#skills",
-    "title": "About me",
+    "title": "About Me",
     "section": "Skills",
-    "text": "Skills\n\nSpatial Design\nLandscape-Based Regional Design, GBI Planning, Climate adaptation\n\n\nQuantitative Analysis\nSpatial Analysis and Mapping\n\n\nGeomatics and Programming\nR, Markdown, Shiny, Quarto, Leaflet, GIS software"
+    "text": "Skills\n\nSpatial data analysis (GIS, Remote Sensing)\nUrban analytics & planning support systems\nMulti-criteria decision analysis (MCDA, AHP)\nR, Python, QGIS, ArcGIS Pro"
+  },
+  {
+    "objectID": "about.html#skills-1",
+    "href": "about.html#skills-1",
+    "title": "About Me",
+    "section": "Skills",
+    "text": "Skills\n\n\n\n&lt;div class=\"card h-100 text-center p-3\"&gt;\n  &lt;div class=\"card-body\"&gt;\n    &lt;i class=\"bi bi-geo-alt-fill\" style=\"font-size: 2rem; color: #007acc;\"&gt;&lt;/i&gt;\n    &lt;h5 class=\"card-title mt-2\"&gt;GIS & Spatial Analysis&lt;/h5&gt;\n    &lt;p class=\"card-text\"&gt;Proficient in spatial data processing, mapping, and analysis using QGIS, ArcGIS, and R.&lt;/p&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n\n\n\n&lt;div class=\"card h-100 text-center p-3\"&gt;\n  &lt;div class=\"card-body\"&gt;\n    &lt;i class=\"bi bi-bar-chart-fill\" style=\"font-size: 2rem; color: #ff6600;\"&gt;&lt;/i&gt;\n    &lt;h5 class=\"card-title mt-2\"&gt;Data Visualization&lt;/h5&gt;\n    &lt;p class=\"card-text\"&gt;Experienced in creating engaging, data-driven visualizations with ggplot2, Leaflet, and Shiny.&lt;/p&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n\n\n\n&lt;div class=\"card h-100 text-center p-3\"&gt;\n  &lt;div class=\"card-body\"&gt;\n    &lt;i class=\"bi bi-code-slash\" style=\"font-size: 2rem; color: #28a745;\"&gt;&lt;/i&gt;\n    &lt;h5 class=\"card-title mt-2\"&gt;Programming&lt;/h5&gt;\n    &lt;p class=\"card-text\"&gt;R, Python, and SQL for spatial analytics, automation, and reproducible workflows.&lt;/p&gt;\n  &lt;/div&gt;\n&lt;/div&gt;"
   },
   {
     "objectID": "contact.html",

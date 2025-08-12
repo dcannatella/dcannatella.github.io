@@ -23,6 +23,7 @@ format:
     includes:
       in_header: bootstrap.cdn.html
     toc: false
+    allow-html: true
 
 editor: visual
 
