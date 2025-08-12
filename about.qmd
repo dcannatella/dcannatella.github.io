@@ -140,49 +140,54 @@ I’m an **urban planner** with a **landscape architecture** background, special
 
 ## Skills
 
--   Spatial data analysis (GIS, Remote Sensing)
--   Urban analytics & planning support systems
--   Multi-criteria decision analysis (MCDA, AHP)
--   R, Python, QGIS, ArcGIS Pro
+<div class="row row-cols-1 row-cols-md-2 g-4">
 
-------------------------------------------------------------------------
-
-## Skills
-
-<div class="row row-cols-1 row-cols-md-3 g-4">
-
-  <!-- Card 1 -->
-  <div class="col">
-    <div class="card h-100 text-center p-3">
-      <div class="card-body">
-        <i class="bi bi-geo-alt-fill" style="font-size: 2rem; color: #007acc;"></i>
-        <h5 class="card-title mt-2">GIS & Spatial Analysis</h5>
-        <p class="card-text">Proficient in spatial data processing, mapping, and analysis using QGIS, ArcGIS, and R.</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Card 2 -->
-  <div class="col">
-    <div class="card h-100 text-center p-3">
-      <div class="card-body">
-        <i class="bi bi-bar-chart-fill" style="font-size: 2rem; color: #ff6600;"></i>
-        <h5 class="card-title mt-2">Data Visualization</h5>
-        <p class="card-text">Experienced in creating engaging, data-driven visualizations with ggplot2, Leaflet, and Shiny.</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Card 3 -->
-  <div class="col">
-    <div class="card h-100 text-center p-3">
-      <div class="card-body">
-        <i class="bi bi-code-slash" style="font-size: 2rem; color: #28a745;"></i>
-        <h5 class="card-title mt-2">Programming</h5>
-        <p class="card-text">R, Python, and SQL for spatial analytics, automation, and reproducible workflows.</p>
-      </div>
-    </div>
-  </div>
-
+<div class="col">
+<div class="card h-100 p-3 text-center">
+  <div class="fs-1 mb-2"><i class="bi bi-geo-alt-fill"></i></div>
+  <h5 class="card-title">Urban & Landscape Planning</h5>
+  <ul class="list-unstyled">
+    <li>Spatial strategy design</li>
+    <li>Resilience planning</li>
+    <li>Peri-urban analysis</li>
+  </ul>
+</div>
 </div>
 
+<div class="col">
+<div class="card h-100 p-3 text-center">
+  <div class="fs-1 mb-2"><i class="bi bi-bar-chart-line-fill"></i></div>
+  <h5 class="card-title">Urban Analytics</h5>
+  <ul class="list-unstyled">
+    <li>Spatial statistics</li>
+    <li>Big data analysis</li>
+    <li>Geospatial AI</li>
+  </ul>
+</div>
+</div>
+
+<div class="col">
+<div class="card h-100 p-3 text-center">
+  <div class="fs-1 mb-2"><i class="bi bi-map-fill"></i></div>
+  <h5 class="card-title">Mapping & Data Visualization</h5>
+  <ul class="list-unstyled">
+    <li>QGIS, ArcGIS</li>
+    <li>Leaflet, Mapbox</li>
+    <li>ggplot2, Shiny</li>
+  </ul>
+</div>
+</div>
+
+<div class="col">
+<div class="card h-100 p-3 text-center">
+  <div class="fs-1 mb-2"><i class="bi bi-code-slash"></i></div>
+  <h5 class="card-title">Programming</h5>
+  <ul class="list-unstyled">
+    <li>R (tidyverse, sf, terra)</li>
+    <li>Python (GeoPandas, Folium)</li>
+    <li>SQL, Git</li>
+  </ul>
+</div>
+</div>
+
+</div>
