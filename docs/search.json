@@ -32,20 +32,13 @@
     "href": "about.html#skills",
     "title": "About Me",
     "section": "Skills",
-    "text": "Skills\n\nSpatial data analysis (GIS, Remote Sensing)\nUrban analytics & planning support systems\nMulti-criteria decision analysis (MCDA, AHP)\nR, Python, QGIS, ArcGIS Pro"
-  },
-  {
-    "objectID": "about.html#skills-1",
-    "href": "about.html#skills-1",
-    "title": "About Me",
-    "section": "Skills",
-    "text": "Skills\n\n\n\n&lt;div class=\"card h-100 text-center p-3\"&gt;\n  &lt;div class=\"card-body\"&gt;\n    &lt;i class=\"bi bi-geo-alt-fill\" style=\"font-size: 2rem; color: #007acc;\"&gt;&lt;/i&gt;\n    &lt;h5 class=\"card-title mt-2\"&gt;GIS & Spatial Analysis&lt;/h5&gt;\n    &lt;p class=\"card-text\"&gt;Proficient in spatial data processing, mapping, and analysis using QGIS, ArcGIS, and R.&lt;/p&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n\n\n\n&lt;div class=\"card h-100 text-center p-3\"&gt;\n  &lt;div class=\"card-body\"&gt;\n    &lt;i class=\"bi bi-bar-chart-fill\" style=\"font-size: 2rem; color: #ff6600;\"&gt;&lt;/i&gt;\n    &lt;h5 class=\"card-title mt-2\"&gt;Data Visualization&lt;/h5&gt;\n    &lt;p class=\"card-text\"&gt;Experienced in creating engaging, data-driven visualizations with ggplot2, Leaflet, and Shiny.&lt;/p&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n\n\n\n&lt;div class=\"card h-100 text-center p-3\"&gt;\n  &lt;div class=\"card-body\"&gt;\n    &lt;i class=\"bi bi-code-slash\" style=\"font-size: 2rem; color: #28a745;\"&gt;&lt;/i&gt;\n    &lt;h5 class=\"card-title mt-2\"&gt;Programming&lt;/h5&gt;\n    &lt;p class=\"card-text\"&gt;R, Python, and SQL for spatial analytics, automation, and reproducible workflows.&lt;/p&gt;\n  &lt;/div&gt;\n&lt;/div&gt;"
+    "text": "Skills\n\n\n\n\n\n\n\nUrban & Landscape Planning\n\n\n\nSpatial strategy design\n\n\nResilience planning\n\n\nPeri-urban analysis\n\n\n\n\n\n\n\n\n\n\nUrban Analytics\n\n\n\nSpatial statistics\n\n\nBig data analysis\n\n\nGeospatial AI\n\n\n\n\n\n\n\n\n\n\nMapping & Data Visualization\n\n\n\nQGIS, ArcGIS\n\n\nLeaflet, Mapbox\n\n\nggplot2, Shiny\n\n\n\n\n\n\n\n\n\n\nProgramming\n\n\n\nR (tidyverse, sf, terra)\n\n\nPython (GeoPandas, Folium)\n\n\nSQL, Git"
   },
   {
     "objectID": "contact.html",
     "href": "contact.html",
     "title": "Contact Me",
     "section": "",
-    "text": "I’m happy to connect whether you’re a student, researcher, practitioner, or simply curious about my work.\n\n\n\n Email & Location\n\n Email: d.cannatella@tudelft.nl\n\n Institutional page: TU Delft Profile\n\n Location: TU Delft, Faculty of Architecture and the Built Environment\n\n\n\n Connect with Me\n\n Twitter/X\n\n GitHub\n\n\n\n Collaborations\nFor project collaborations, supervision opportunities, or guest lectures, please include a short description in your message."
+    "text": "I’m happy to connect whether you’re a researcher, practitioner, a student, or simply curious about my work.\n\n\n\n Email & Location\n\n Email: d.cannatella@tudelft.nl\n\n Institutional page: TU Delft Profile\n\n Location: TU Delft, Faculty of Architecture and the Built Environment\n\n\n\n Connect with Me\n\n Twitter/X\n\n GitHub\n\n\n\n Collaborations\nFor project collaborations, supervision opportunities, or guest lectures, please include a short description in your message."
   }
 ]
