@@ -1,19 +1,188 @@
 ---
-title: "About me"
+title: "About Me"
+toc: true
+toc-title: "Contents"
+toc-location: right
+format:
+  html:
+    css: styles.css  # your dedicated CSS file
 ---
+
+I’m an **urban planner** with a **landscape architecture** background, specializing in **digital mapping**, **spatial analysis**, and **urban analytics**. My research and teaching focus on **data-supported planning and design** for resilient and sustainable urban environments. I combine spatial data analysis, visualization, and multi-criteria decision-making to support strategic, cross-scalar planning.
+
+### Download CV
+
+[Download My CV](files/Daniele_Cannatella_CV.pdf){.btn .btn-primary target="_blank"}
+
+------------------------------------------------------------------------
+
+## Professional Activities
+
+:::::::::::: timeline
+::::: timeline-item
+::: timeline-date
+2022 – Present
+:::
+
+::: timeline-content
+<h4>Assistant Professor in Urban Data for Design</h4>
+
+<p>Faculty of Architecture and the Built Environment, TU Delft, department of Urbanism</p>
+:::
+:::::
+
+::::: timeline-item
+::: timeline-date
+2018 – 2022
+:::
+
+::: timeline-content
+<h4>Postdoctoral Researcher</h4>
+
+<p>Faculty of Architecture and the Built Environment, TU Delft, department of Urbanism</p>
+:::
+:::::
+
+::::: timeline-item
+::: timeline-date
+2014 – 2017
+:::
+
+::: timeline-content
+<h4>Researcher</h4>
+
+<p>CNR-IRISS (Italian National Research Council)</p>
+:::
+:::::
+
+::::: timeline-item
+::: timeline-date
+2013 – 2016
+:::
+
+::: timeline-content
+<h4>Junior Researcher</h4>
+
+<p>University of Naples ‘Federico II’ - Faculty of Architecture</p>
+:::
+:::::
+
+::::: timeline-item
+::: timeline-date
+2013 – 2016
+:::
+
+::: timeline-content
+<h4>Urban Designer</h4>
+
+<p>Architectural firm Gasparrini</p>
+:::
+:::::
+
+::::::::::::
+
+------------------------------------------------------------------------
 
 ## Education
 
+:::::::::::: timeline
+::::: timeline-item
+::: timeline-date
+2017
+:::
+
+::: timeline-content
+<h4>PhD in Urban Planning</h4>
+
+<p>University of Naples ‘Federico II’ - Faculty of Architecture</p>
+:::
+:::::
+
+::::: timeline-item
+::: timeline-date
+2013
+:::
+
+::: timeline-content
+<h4>Master in Sustainable Panning and Design of Port Areas</h4>
+
+<p>University of Naples ‘Federico II’ - Faculty of Architecture</p>
+:::
+:::::
+
+::::: timeline-item
+::: timeline-date
+2011
+:::
+
+::: timeline-content
+<h4>Master in Regional and Urban Planning | summa cum laude</h4>
+
+<p>University of Naples ‘Federico II’ - Faculty of Architecture</p>
+:::
+:::::
+
+::::: timeline-item
+::: timeline-date
+2008
+:::
+
+::: timeline-content
+<h4>BSc in Urban Planning and Spatial and Environmental Planning Sciences</h4>
+
+<p>University of Naples ‘Federico II’ - Faculty of Architecture</p>
+:::
+:::::
+
+::::::::::::
+
+------------------------------------------------------------------------
+
 ## Skills
 
-### Spatial Design
+-   Spatial data analysis (GIS, Remote Sensing)
+-   Urban analytics & planning support systems
+-   Multi-criteria decision analysis (MCDA, AHP)
+-   R, Python, QGIS, ArcGIS Pro
 
-Landscape-Based Regional Design, GBI Planning, Climate adaptation
+------------------------------------------------------------------------
 
-### Quantitative Analysis
+## Skills
 
-Spatial Analysis and Mapping
+<div class="row row-cols-1 row-cols-md-3 g-4">
 
-### Geomatics and Programming
+  <!-- Card 1 -->
+  <div class="col">
+    <div class="card h-100 text-center p-3">
+      <div class="card-body">
+        <i class="bi bi-geo-alt-fill" style="font-size: 2rem; color: #007acc;"></i>
+        <h5 class="card-title mt-2">GIS & Spatial Analysis</h5>
+        <p class="card-text">Proficient in spatial data processing, mapping, and analysis using QGIS, ArcGIS, and R.</p>
+      </div>
+    </div>
+  </div>
 
-R, Markdown, Shiny, Quarto, Leaflet, GIS software
+  <!-- Card 2 -->
+  <div class="col">
+    <div class="card h-100 text-center p-3">
+      <div class="card-body">
+        <i class="bi bi-bar-chart-fill" style="font-size: 2rem; color: #ff6600;"></i>
+        <h5 class="card-title mt-2">Data Visualization</h5>
+        <p class="card-text">Experienced in creating engaging, data-driven visualizations with ggplot2, Leaflet, and Shiny.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="col">
+    <div class="card h-100 text-center p-3">
+      <div class="card-body">
+        <i class="bi bi-code-slash" style="font-size: 2rem; color: #28a745;"></i>
+        <h5 class="card-title mt-2">Programming</h5>
+        <p class="card-text">R, Python, and SQL for spatial analytics, automation, and reproducible workflows.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
