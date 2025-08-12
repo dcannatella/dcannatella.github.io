@@ -101,6 +101,15 @@ pre {
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
+/* Dark mode override */
+@media (prefers-color-scheme: dark) {
+  .card {
+    background-color: #1e1e2f;  /* dark background */
+    color: #ddd;                /* light text */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  }
+}
+
 .card-body {
   padding: 1.5rem 2rem; /* more horizontal breathing room */
 }
