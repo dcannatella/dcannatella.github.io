@@ -3,65 +3,85 @@ title: "Contact Me"
 format: html
 ---
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+<style>
+  /* Contact cards grid */
+  .contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin-bottom: 2rem;
+  }
+  .card {
+    border-radius: 12px;
+    padding: 20px 28px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    border: none;
+  }
+  .card h3 {
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+  }
+  /* Icons inside headings */
+  .card h3 i {
+    margin-right: 8px;
+    color: #007bff;
+  }
+</style>
+
 ::::: {.container .my-4}
-## Contact Me
 
-If you’d like to get in touch, feel free to reach out.
+I’m happy to connect whether you’re a student, researcher, practitioner, or simply curious about my work.
 
-Whether you’re a student, researcher, practitioner, or just curious about my work, I’m happy to connect.
+---
+
+<div class="contact-grid">
 
 ::: {.card}
-### Dr. Daniele Cannatella
-
-If you’d like to get in touch, feel free to reach out.
-
-**Email:** [d.cannatella@tudelft.nl](mailto:d.cannatella@tudelft.nl)  
-**Institutional page:** [TU Delft Profile](https://www.tudelft.nl/architecture/about-faculty/staff/dr-daniele-cannatella)  
-**Location:** TU Delft, Faculty of Architecture and the Built Environment
+### <i class="bi bi-envelope-fill"></i> Email & Location
+- <i class="bi bi-envelope"></i> **Email:** [d.cannatella@tudelft.nl](mailto:d.cannatella@tudelft.nl)  
+- <i class="bi bi-building"></i> **Institutional page:** [TU Delft Profile](https://www.tudelft.nl/architecture/about-faculty/staff/dr-daniele-cannatella)  
+- <i class="bi bi-geo-alt"></i> **Location:** TU Delft, Faculty of Architecture and the Built Environment
 :::
 
 ::: {.card}
-### Follow me
-
-You can also follow or message me on:
-
-- [Twitter/X](https://twitter.com/danielecannat)  
-- [GitHub](https://github.com/dcannatella/)
+### <i class="bi bi-people-fill"></i> Connect with Me
+- <i class="bi bi-twitter-x"></i> [Twitter/X](https://twitter.com/danielecannat)  
+- <i class="bi bi-github"></i> [GitHub](https://github.com/dcannatella/)
 :::
 
 ::: {.card}
-### Collaborations
-
+### <i class="bi bi-lightbulb-fill"></i> Collaborations
 For project collaborations, supervision opportunities, or guest lectures, please include a short description in your message.
 :::
 
-<!-- Leaflet map container -->
+</div>
 
-::: {#map style="height: 350px; margin-top: 2rem; border-radius: 0.3rem; box-shadow: 0 0 10px rgba(0,0,0,0.1);"}
+---
+
+::: {#map style="height: 350px; border-radius: 0.5rem; box-shadow: 0 0 10px rgba(0,0,0,0.1);"}
 :::
+
 :::::
 
 <!-- Leaflet CSS & JS -->
-
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-
-```{=html}
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-```
 
-```{=html}
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    var map = L.map('map').setView([52.005656, 4.369719], 15);
+    var map = L.map('map').setView([52.005838, 4.370224], 18);
 
+    // Stadia Alidade Smooth tiles
     L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png', {
       maxZoom: 20,
-      attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://stadiamaps.com/">Stadia Maps</a>',
     }).addTo(map);
 
-    L.marker([52.005656, 4.369719]).addTo(map)
+    L.marker([52.005838, 4.370224]).addTo(map)
       .bindPopup("<b>TU Delft</b><br>Faculty of Architecture and the Built Environment")
       .openPopup();
   });
 </script>
-```

@@ -95,33 +95,24 @@ pre {
 
 /* Make card text consistent and clean */
 .card {
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  border: none;
+  padding: 20px 30px;
+  margin-bottom: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
-/* Hover effect */
-.card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 14px rgba(0,0,0,0.12);
-}
-
-/* Card body spacing */
 .card-body {
-  padding: 1.25rem;
-  font-size: 0.95rem;
+  padding: 1.5rem 2rem; /* more horizontal breathing room */
 }
 
-/* Card footer alignment */
-.card-footer {
-  background: none;
-  border-top: none;
-  padding-top: 0;
+.card h3, .card h4 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
-/* Make buttons match the theme */
-.card-footer .btn {
-  border-radius: 20px;
-  font-size: 0.85rem;
+.card h3 i, .card h4 i {
+  color: #007bff;
+  font-size: 1.2rem;
 }
+
