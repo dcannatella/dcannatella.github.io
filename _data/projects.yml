@@ -15,40 +15,134 @@
 # ============================================================
 
 current:
+
   - title: "PAST-FORWARD"
-    years: "2026 — ongoing"
-    funder: "NWO"
+    years: "2024 – 2028"
+    funder: "NWO–NSFC Merian Fund · Cities Amidst Climate Change"
     partners:
-      - "TU Delft"
-      - "Erasmus School of Law"
-      - "South China University of Technology"
-      - "Xi'an Architecture"
+      - "TU Delft (lead)"
+      - "South China University of Technology (SCUT)"
+      - "Erasmus University Rotterdam"
+      - "OKRA Landscape Architects"
+      - "GDUPI"
+      - "Xi'an University of Architecture and Technology (XAUAT)"
     description: >
-      Describe the project here — what is the core research question?
-      What methods are you using? What does it aim to achieve?
-    tags: [Historical Urban Areas, Climate Adaptation, Spatial Analysis]
-    image: "images/project-1.jpg"
+      Historic cities across the world are increasingly vulnerable to climate-related
+      challenges — flooding, extreme heat, social inequality — while facing the urgent
+      task of preserving their cultural and spatial heritage. PAST-FORWARD bridges
+      these challenges through an adaptive, data-driven, and design-oriented approach
+      that strengthens both climate resilience and heritage preservation. Combining
+      geospatial analysis, participatory planning, regulatory assessment, and
+      landscape-based urban design, the project supports the sustainable and inclusive
+      transformation of Historic Urban Landscapes (HULs). Living labs in Delft,
+      Rotterdam, Xi'an, and Guangzhou serve as real-world testing grounds for
+      adaptive design strategies and co-creative approaches.
+    tags:
+      - "Climate Adaptation"
+      - "Heritage"
+      - "Historic Urban Landscapes"
+      - "Geospatial Analysis"
+      - "Participatory Design"
+      - "NWO–NSFC"
     links:
       - label: "Project page"
-        url: "#"
+        url: "https://www.tudelft.nl"
 
-  - title: "Digital Heat Hub"
-    years: "2025 — ongoing"
-    funder: "Funder"
+  - title: "Rbanism"
+    years: "2022 – Present"
+    funder: "TU Delft · Netherlands eScience Center"
+    partners:
+      - "TU Delft"
+      - "Netherlands eScience Center (NLeSC)"
     description: >
-      Description.
-    tags: [Nature-based Solutions, Landscape, R]
+      Rbanism is an open community dedicated to building capacity, competence, and
+      confidence for working with data and research software in the urbanism field.
+      Through workshops, events, and open educational resources, Rbanism promotes
+      reproducible, automated, and scalable spatial analysis practices — making
+      rigorous urban analytics accessible to researchers, educators, and practitioners
+      who work with cities and territories.
+    tags:
+      - "Open Science"
+      - "R"
+      - "Spatial Analysis"
+      - "Education"
+      - "Reproducibility"
+      - "Community"
     links:
-      - label: "Read more"
-        url: "#"
+      - label: "rbanism.org"
+        url: "https://rbanism.org"
+
+  - title: "Designing with Machines"
+    years: "2024 – Present"
+    funder: "TU Delft"
+    partners:
+      - "TU Delft · Faculty of Architecture and the Built Environment"
+    description: >
+      Designing with Machines is a research initiative exploring the role of
+      artificial intelligence in spatial design education and practice. The project
+      investigates how AI tools reshape design workflows, spatial reasoning, and
+      pedagogical approaches — and what new literacies students and educators need
+      to engage with them critically and creatively. The initiative feeds directly
+      into two institutional AI taskforces developing policies and guidelines for
+      responsible AI use in spatial design education.
+    tags:
+      - "Artificial Intelligence"
+      - "Design Education"
+      - "Spatial Design"
+      - "AI Policy"
+      - "pedagogy"
+    links: []
 
 past:
-  - title: "HIA"
-    years: "2021 — 2023"
-    funder: "Funder"
+
+  - title: "Temporary Uses and Social Value in Urban Transformation"
+    years: "2018 – 2023"
+    funder: "TU Delft"
+    partners:
+      - "TU Delft"
+      - "Vrije Universiteit Brussel"
     description: >
-      Description of completed project — focus, methods, outcomes.
-    tags: [Spatial Analysis, Urban Planning]
-    links:
-      - label: "Publication"
-        url: "#"
+      Investigated the economic and social impact of temporary uses in urban
+      transformation processes, with a focus on the Brussels Region. Developed
+      spatial-temporal methods to assess how interim activations generate social
+      value and influence surrounding real estate dynamics.
+    tags:
+      - "Temporary Uses"
+      - "Social Value"
+      - "Urban Transformation"
+      - "Spatial Analysis"
+    links: []
+
+  - title: "Urban Resilience and Landscape Planning"
+    years: "2014 – 2017"
+    funder: "CNR-IRISS · Italian National Research Council"
+    partners:
+      - "CNR-IRISS"
+      - "University of Naples Federico II"
+    description: >
+      Postdoctoral and research work at the Italian National Research Council
+      focusing on landscape-based approaches to urban resilience. Developed
+      multi-criteria spatial assessment frameworks for peri-urban and coastal
+      landscapes, with applications in Southern Italy.
+    tags:
+      - "Landscape Planning"
+      - "Urban Resilience"
+      - "Multi-criteria Analysis"
+      - "Peri-urban"
+    links: []
+
+  - title: "Sustainable Planning and Design of Port Areas"
+    years: "2011 – 2014"
+    funder: "University of Naples Federico II"
+    partners:
+      - "University of Naples Federico II"
+    description: >
+      Research and design work on the sustainable regeneration of post-industrial
+      port areas, examining how waterfront landscapes can be reimagined to serve
+      contemporary urban needs while preserving spatial and cultural identity.
+    tags:
+      - "Port Areas"
+      - "Waterfront"
+      - "Urban Regeneration"
+      - "Landscape Design"
+    links: []
