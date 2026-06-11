@@ -1,0 +1,97 @@
+# ============================================================
+# publications.yml — Edit this file to update the Publications page
+# ============================================================
+# Each publication has these fields:
+#   title       (required)
+#   authors     full author string, bold your name with **Cannatella, D.**
+#   year        (required, used for sorting)
+#   type        journal | book-chapter | conference | report | dataset | other
+#   journal     journal or book title
+#   volume      volume/issue info (optional)
+#   doi         DOI string only, e.g. "10.1016/j.xxx" (optional)
+#   pdf         path to local PDF in docs/papers/ (optional)
+#   abstract    short abstract or description (optional)
+#   tags        list of keyword tags (optional)
+# ============================================================
+
+journal:
+  - title: "[Article Title]"
+    authors: "**Cannatella, D.**, Author, B., & Author, C."
+    year: 2024
+    journal: "[Journal Name]"
+    volume: "Vol. X, No. Y, pp. Z–ZZ"
+    doi: "10.xxxx/xxxxxxx"
+    pdf: "docs/papers/cannatella-2024.pdf"
+    abstract: >
+      [Paste abstract here, or write a 1–2 sentence plain-language summary
+      of what the paper is about and what it contributes.]
+    tags:
+      - Urban Resilience
+      - Spatial Analysis
+      - Climate Adaptation
+
+  - title: "[Article Title]"
+    authors: "Author, B., **Cannatella, D.**, & Author, C."
+    year: 2023
+    journal: "[Journal Name]"
+    volume: "Vol. X, No. Y"
+    doi: "10.xxxx/xxxxxxx"
+    abstract: >
+      [Abstract or description.]
+    tags:
+      - GIS
+      - Urban Data
+
+  - title: "[Article Title]"
+    authors: "**Cannatella, D.** & Author, B."
+    year: 2022
+    journal: "[Journal Name]"
+    doi: "10.xxxx/xxxxxxx"
+    abstract: >
+      [Abstract or description.]
+    tags:
+      - Landscape Architecture
+
+book-chapters:
+  - title: "[Chapter Title]"
+    authors: "**Cannatella, D.**"
+    year: 2023
+    journal: "In: *[Book Title]*, eds. Editor, A. & Editor, B. Publisher Name."
+    doi: "10.xxxx/xxxxxxx"
+    abstract: >
+      [Description of the chapter's contribution.]
+    tags:
+      - Urban Resilience
+
+conference:
+  - title: "[Conference Paper Title]"
+    authors: "**Cannatella, D.**, Author, B."
+    year: 2024
+    journal: "*[Conference Name]*, City, Country."
+    pdf: "docs/papers/cannatella-conf-2024.pdf"
+    abstract: >
+      [Description.]
+    tags:
+      - GIS
+      - Climate Adaptation
+
+  - title: "[Conference Paper Title]"
+    authors: "**Cannatella, D.**"
+    year: 2023
+    journal: "*[Conference Name]*, City, Country."
+    abstract: >
+      [Description.]
+    tags:
+      - Urban Data
+
+reports:
+  - title: "[Report Title]"
+    authors: "**Cannatella, D.**, Author, B., & Author, C."
+    year: 2022
+    journal: "[Institution / Funder]"
+    pdf: "docs/reports/report-2022.pdf"
+    abstract: >
+      [Description.]
+    tags:
+      - Policy
+      - Urban Resilience

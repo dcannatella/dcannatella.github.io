@@ -1,0 +1,197 @@
+# ============================================================
+# publications.yml — generated from works.bib
+# Bold your name in authors with **Cannatella, D.**
+# Fields: title, authors, year, journal, volume, doi, pdf, abstract, tags
+# ============================================================
+
+journal:
+  - title: "Reinterpreting the Garden City: Green-Built Relations in Tel Aviv’s Metropolitan Planning"
+    authors: "Matar, A., **Cannatella, D.**, Pereira Roders, A."
+    year: 2026
+    journal: "Land"
+    volume: "Vol. 15, No. X"
+    doi: "10.3390/su9112043"
+    tags: [Heritage, Sustainable Development, Tel Aviv]
+    
+  - title: " Assessing urban landscape composition and configuration in the pearl river delta (China) over time"
+    authors: "**Cannatella, D.** & Nijhuis, S."
+    year: 2020
+    journal: "Journal of Digital Landscape Architecture"
+    doi: "10.14627/537690012"
+    tags: [Landscape, Pearl River Delta, Urban Composition, GIS]
+    
+  - title: "Social Vulnerability to Natural Hazards in Urban Systems. An Application in Santo Domingo (Dominican Republic)"
+    authors: "Giovene di Girasole, E. & **Cannatella, D.**"
+    year: 2017
+    journal: "Sustainability"
+    volume: "Vol. 9, No. 11, p. 2043"
+    doi: "10.3390/su9112043"
+    tags: [Urban Resilience, Vulnerability, Natural Hazards]
+
+  - title: "Resilienza vs Vulnerabilità nei sistemi urbani per equilibri dinamici della città contemporanea"
+    authors: "Clemente, M., **Cannatella, D.**, Giovene Di Girasole, E. & Oppido, S."
+    year: 2015
+    journal: "Territorio della Ricerca su Insediamenti e Ambiente (TRIA)"
+    volume: "No. 15 — The Challenge of Urban Resilience"
+    doi: "10.6092/2281-4574/3729"
+    tags: [Urban Resilience, Vulnerability, Italian]
+
+  - title: "Cultural Landscape by the Sea as Commons: Collaborative Planning for the Metropolitan Waterfront of Naples"
+    authors: "Clemente, M., Giovene Di Girasole, E., **Cannatella, D.** & Martucci, C."
+    year: 2015
+    journal: "BDC. Bollettino Del Centro Calza Bini"
+    volume: "Vol. 15, No. 1 — Cultural Landscapes"
+    doi: "10.6092/2284-4732/3774"
+    tags: [Landscape, Waterfront, Collaborative Planning]
+
+  - title: "Towards a Landscape-based Regional Design Approach for Adaptive Transformation in Urbanizing Deltas"
+    authors: "Nijhuis, S., Xiong, L. & **Cannatella, D.**"
+    year: 2020
+    journal: "Research in Urbanism Series"
+    volume: "Vol. 6"
+    doi: "10.7480/rius.6.94"
+    tags: [Landscape, Regional Design, Deltas, Urban Transformation]
+
+  - title: "Landscape and Identity in Regional Design: The Case of the Pearl River Delta (China)"
+    authors: "**Cannatella, D.**"
+    year: 2019
+    journal: "Abitare la Terra"
+    volume: "No. XVIII"
+    doi: "10.36165/2931"
+    tags: [Landscape, Regional Design, Pearl River Delta]
+
+  - title: "Venezia da città con porto a città-porto: proposta di rigenerazione urbana della Marittima"
+    authors: "**Cannatella, D.**, Poli, G. & Sposito, S."
+    year: 2014
+    journal: "Territorio della Ricerca su Insediamenti e Ambiente (TRIA)"
+    volume: "No. 12 — Art Cities"
+    doi: "10.6092/2281-4574/2564"
+    tags: [Urban Regeneration, Venice, Waterfront, Italian]
+
+book-chapters:
+
+  - title: "A Landscape-Based Regional Design Approach for Sustainable Urban Development in the Pearl River Delta, China"
+    authors: "Nijhuis, S., Sun, Y., **Cannatella, D.** & Xie, G."
+    year: 2023
+    journal: "In: *Adaptive Urban Transformation*. Springer International Publishing, pp. 81–114."
+    doi: "10.1007/978-3-030-89828-1_5"
+    tags: [Landscape, Regional Design, Pearl River Delta, Sustainable Development]
+
+  - title: "Cities of the Future: On Nature and the Grammar of Design"
+    authors: "**Cannatella, D.**"
+    year: 2023
+    journal: "In: Cavallo, R. et al. (eds.) *City of the Future Graduation Lab*. TU Delft OPEN Publishing, pp. 80–81."
+    abstract: >
+      Argues that the building blocks of spatial design — time, space, causality, and matter —
+      mirror the four building blocks of thought identified by cognitive science, and reflects
+      on how nature and landscape can serve as grammar for designing cities of the future.
+    tags: [Urban Design, Education, Landscape, Nature]
+
+  - title: "Design Studios as Method for Exploring Complex Challenges in the Pearl River Delta"
+    authors: "**Cannatella, D.** & Nijhuis, S."
+    year: 2023
+    journal: "In: Nijhuis, S., Sun, Y. & Lange, E. (eds.) *Adaptive Urban Transformation*. Springer International Publishing, pp. 115–132."
+    doi: "10.1007/978-3-030-89828-1_6"
+    abstract: >
+      Draws on three design studios focused on the Pearl River Delta to discuss how
+      research-through-design can systematically generate knowledge — project-based,
+      form-based, and idea-based — to address complex regional challenges.
+    tags: [Design Studio, Research-through-Design, Pearl River Delta, Education]
+
+  - title: "Industrial Transformation and Sustainable Urban Planning in the Pearl River Delta: A Landscape-based Approach"
+    authors: "**Cannatella, D.**"
+    year: 2023
+    journal: "In: *Adaptive Urban Transformation*. Springer International Publishing, pp. 209–232."
+    doi: "10.1007/978-3-030-89828-1_11"
+    tags: [Landscape, Industrial Transformation, Pearl River Delta, Urban Planning]
+
+  - title: "Climate Change and Transformability Scenario Evaluation for Venice (Italy) Port-City Through ANP Method"
+    authors: "Cerreta, M., **Cannatella, D.**, Poli, G. & Sposito, S."
+    year: 2015
+    journal: "In: *Computational Science and Its Applications – ICCSA 2015*. Springer International Publishing, pp. 50–63."
+    doi: "10.1007/978-3-319-21410-8_4"
+    tags: [Climate Change, Multi-criteria, Venice, ANP]
+
+  - title: "Multidimensional Spatial Decision-Making Process: Local Shared Values in Action"
+    authors: "Cerreta, M., Panaro, S. & **Cannatella, D.**"
+    year: 2012
+    journal: "In: *Computational Science and Its Applications – ICCSA 2012*. Springer Berlin Heidelberg, pp. 54–70."
+    doi: "10.1007/978-3-642-31075-1_5"
+    tags: [Spatial Decision-Making, Multi-criteria, Values]
+
+  - title: "Collaborative Strategy for Tourism Development and Regeneration: Italy's Coast of Naples"
+    authors: "Clemente, M., Giovene di Girasole, E., Martucci, C. & **Cannatella, D.**"
+    year: 2017
+    journal: "In: *Knowledge Transfer to and within Tourism*. Emerald Publishing Limited, pp. 131–146."
+    doi: "10.1108/s2042-144320170000008009"
+    tags: [Tourism, Urban Regeneration, Naples, Collaborative Planning]
+
+conference:
+  - title: "Mapping Real Estate Values: A Semi-systematic Literature Review of Spatial Evaluation Methods and Approaches"
+    authors: "Muccio, E. & **Cannatella, D.**"
+    year: 2025
+    journal: "In: *Computational Science and Its Applications – ICCSA 2025 Workshops*. Springer Nature Switzerland, pp. 234–248."
+    doi: "10.1007/978-3-031-97645-2_16"
+    tags: [Real Estate, Spatial Evaluation, Systematic Review, GIS]
+
+  - title: "Spatial Analysis in Multi-Value Assessment for Rural Landscapes: A Comparative Study of ES, LS, and LCA Frameworks"
+    authors: "Grieco, B., Sacco, S., **Cannatella, D.** & Cerreta, M."
+    year: 2025
+    journal: "In: *Computational Science and Its Applications – ICCSA 2025 Workshops*. Springer Nature Switzerland, pp. 67–83."
+    doi: "10.1007/978-3-031-97589-9_6"
+    tags: [Landscape, Multi-criteria, Rural, Ecosystem Services]
+
+  - title: "A Data-Driven Design Approach for Multi-scale Green Infrastructure Design: Integrating Landscape Connectivity and Phytoremediation in the Piedmont Region (IT)"
+    authors: "**Cannatella, D.**, van der Waal, M. & Rizzetto, F."
+    year: 2024
+    journal: "In: *Computational Science and Its Applications – ICCSA 2024 Workshops*. Springer Nature Switzerland, pp. 388–405."
+    doi: "10.1007/978-3-031-65285-1_25"
+    tags: [Green Infrastructure, Landscape Connectivity, Phytoremediation, GIS, Data-driven]
+  - title: "Landscape-Based Fire Resilience: Identifying Interaction Between Landscape Dynamics and Fire Regimes in the Mediterranean Region"
+    authors: "Song, J., **Cannatella, D.** & Katsikis, N."
+    year: 2023
+    journal: "*Computational Science and Its Applications – ICCSA 2023 Workshops*. Springer Nature Switzerland, Cham, pp. 328–344."
+    doi: "10.1007/978-3-031-37117-2_23"
+    abstract: >
+      Integrates landscape dynamics and fire regimes to identify heterogeneous fire typologies
+      in the Mediterranean region using GIS-based approaches and statistical analysis —
+      producing diagnostic mappings to support landscape-based wildfire risk mitigation.
+    tags: [Fire Resilience, Landscape, Mediterranean, GIS, Wildfire]
+
+  - title: "The Microclimate Performance of Urban Form: A Quantitative Morphological Approach"
+    authors: "Maiullari, D., Pijpers-van Esch, M., Aldakheelallah, A. & **Cannatella, D.**"
+    year: 2022
+    journal: "*XXVIII International Seminar on Urban Form*. pp. 625–633."
+    abstract: >
+      Develops a quantitative method to identify morphological types based on climate-related
+      form attributes, applied to Rotterdam to assess microclimate performance of 25
+      urban archetypes using the ENVI-met microclimate model.
+    tags: [Microclimate, Urban Morphology, GIS, ENVI-met, Rotterdam]
+
+reports:
+  - title: "Thermo-staat: NWO Eindrapportage"
+    authors: "Corpel, L., Solcerova, A., Kluck, J., van Esch, M., Mantas, D., **Cannatella, D.**, van Duijnen, S., Terhorst, T., van den Ende, J. & Tromp, R."
+    year: 2024
+    journal: "NWO / Hogeschool van Amsterdam"
+    volume: "75 pp."
+    pdf: "https://research.hva.nl/files/49746481/Thermo-staat_Eindrapport.pdf"
+    abstract: >
+      Investigates how community creation and citizen science can make people more aware of
+      and better adapted to heat in apartments as a consequence of climate change. Residents
+      in IJmuiden and Amsterdam measured indoor temperatures and reflected on adaptation
+      options; investigative journalists brought their stories to the public.
+    tags: [Climate Adaptation, Heat, Citizen Science, Urban Resilience, NWO]
+
+  - title: "Spatial Multi-Criteria Decision Analysis (S-MCDA)"
+    authors: "**Cannatella, D.**"
+    year: 2025
+    journal: "Zenodo"
+    doi: "10.5281/ZENODO.15752555"
+    tags: [Multi-criteria, Spatial Analysis, Open Data, Methods]
+
+  - title: "Rbanism: Building Digital Competence for Reproducible, Automated and Scalable Research in the Urbanism Research Community"
+    authors: "Forgaci, C., **Cannatella, D.**, Cottineau-Mugadza, C. & Joh, H."
+    year: 2025
+    journal: "Zenodo"
+    doi: "10.5281/ZENODO.15223493"
+    tags: [Rbanism, Open Science, Reproducibility, Education, R]

@@ -1,0 +1,377 @@
+---
+title: " "
+page-layout: full
+toc: false
+---
+
+```{=html}
+<style>
+/* ── Page-level overrides ── */
+#quarto-content { padding: 0 !important; max-width: 100% !important; }
+.quarto-container { max-width: 100% !important; padding: 0 !important; }
+
+/* ── HERO ── */
+.dc-about-hero {
+  padding: 7rem 2rem 4rem;
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.dc-about-role {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--dc-accent);
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.dc-about-role::before {
+  content: '';
+  width: 28px; height: 1px;
+  background: var(--dc-accent);
+  display: inline-block;
+}
+
+.dc-about-name {
+  font-family: 'DM Serif Display', serif !important;
+  font-size: clamp(3rem, 6vw, 5rem) !important;
+  line-height: 1.05 !important;
+  letter-spacing: -0.03em !important;
+  color: var(--dc-text) !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.dc-about-name em {
+  font-style: italic;
+  color: var(--dc-accent);
+}
+
+.dc-about-tagline {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  color: var(--dc-text-muted);
+  text-transform: uppercase;
+  margin-bottom: 2.5rem;
+  line-height: 2;
+}
+
+.dc-about-intro {
+  font-family: 'DM Serif Display', serif;
+  font-size: clamp(1.15rem, 2vw, 1.4rem);
+  line-height: 1.65;
+  color: var(--dc-text);
+  font-style: italic;
+  max-width: 700px;
+  margin-bottom: 2.5rem;
+}
+
+.dc-about-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 1.5rem;
+}
+
+.dc-about-link {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.62rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--dc-text-muted) !important;
+  border: 1px solid var(--dc-border);
+  padding: 0.4rem 0.9rem;
+  text-decoration: none !important;
+  transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+.dc-about-link:hover {
+  border-color: var(--dc-accent);
+  color: var(--dc-accent) !important;
+  text-decoration: none !important;
+}
+
+.dc-coords {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.58rem;
+  color: var(--dc-text-muted);
+  letter-spacing: 0.06em;
+  opacity: 0.45;
+  margin-top: 1.5rem;
+}
+
+/* ── SECTION BLOCKS ── */
+.dc-section {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 3.5rem 2rem;
+  border-top: 1px solid var(--dc-border);
+}
+
+.dc-section-eyebrow {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.58rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--dc-accent);
+  margin-bottom: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.dc-section-eyebrow::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--dc-border);
+}
+
+.dc-section-title {
+  font-family: 'DM Serif Display', serif !important;
+  font-size: clamp(1.6rem, 3vw, 2.2rem) !important;
+  letter-spacing: -0.02em !important;
+  color: var(--dc-text) !important;
+  margin-bottom: 1.5rem !important;
+  line-height: 1.2 !important;
+}
+
+.dc-body {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.82rem;
+  line-height: 1.9;
+  color: var(--dc-text-muted);
+  max-width: 680px;
+}
+
+.dc-body p { margin-bottom: 1.25rem; }
+.dc-body a { color: var(--dc-accent); }
+
+/* ── PHOTO MOSAICS ── */
+.dc-mosaic {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0.5rem 2rem 2rem;
+  display: grid;
+  gap: 8px;
+}
+
+.dc-mosaic-2  { grid-template-columns: 1fr 1fr; }
+.dc-mosaic-3  { grid-template-columns: 2fr 1fr; }
+.dc-mosaic-3b { grid-template-columns: 1fr 2fr; }
+
+.dc-mosaic-tall { aspect-ratio: 3/4; overflow: hidden; }
+.dc-mosaic-wide { aspect-ratio: 4/3; overflow: hidden; }
+.dc-mosaic-sq   { aspect-ratio: 1/1; overflow: hidden; }
+
+.dc-mosaic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: grayscale(15%) contrast(1.02);
+  transition: filter 0.4s, transform 0.4s;
+}
+
+.dc-mosaic img:hover {
+  filter: grayscale(0%) contrast(1.05);
+  transform: scale(1.015);
+}
+
+/* ── HIGHLIGHTS / TAGS ── */
+.dc-highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1.5rem 0 0;
+}
+
+.dc-highlight {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.6rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: var(--dc-tag-bg);
+  color: var(--dc-tag-text);
+  padding: 0.3rem 0.75rem;
+  border-radius: 2px;
+}
+
+/* ── CALLOUT BOX ── */
+.dc-callout {
+  border-left: 2px solid var(--dc-accent-2);
+  padding: 1.25rem 1.5rem;
+  background: var(--dc-bg-card);
+  margin: 2rem 0 0;
+  font-family: 'DM Mono', monospace;
+  font-size: 0.78rem;
+  line-height: 1.8;
+  color: var(--dc-text-muted);
+}
+
+.dc-callout-label {
+  color: var(--dc-accent-2);
+  font-size: 0.58rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 0.6rem;
+}
+
+/* ── AFFILIATIONS ── */
+.dc-affiliations {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  border-top: 1px solid var(--dc-border);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  align-items: center;
+}
+
+.dc-affil-link {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.6rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--dc-text-muted) !important;
+  text-decoration: none !important;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid var(--dc-border);
+  transition: all 0.2s;
+}
+.dc-affil-link:hover {
+  color: var(--dc-accent) !important;
+  border-color: var(--dc-accent);
+  text-decoration: none !important;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .dc-mosaic-2, .dc-mosaic-3, .dc-mosaic-3b { grid-template-columns: 1fr; }
+  .dc-about-hero { padding: 5rem 1.25rem 2.5rem; }
+  .dc-section    { padding: 2.5rem 1.25rem; }
+  .dc-mosaic     { padding: 0.5rem 1.25rem 2rem; }
+}
+</style>
+
+<!-- HERO -->
+<div class="dc-about-hero">
+  <div class="dc-about-role">Assistant Professor · TU Delft</div>
+  <h1 class="dc-about-name">Daniele<br><em>Cannatella</em></h1>
+  <div class="dc-about-tagline">
+    Urban Data Science &nbsp;·&nbsp; Spatial Analysis<br>
+    Urban Resilience &nbsp;·&nbsp; Climate Adaptation
+  </div>
+  <p class="dc-about-intro">
+    I study how cities adapt — to climate change, to uncertainty, to the pressures that don't show up until it's almost too late. My tools are data, maps, and rigorous spatial thinking.
+  </p>
+  <div class="dc-about-links">
+    <a class="dc-about-link" href="docs/CV_Cannatella.pdf">↓ CV</a>
+    <a class="dc-about-link" href="mailto:d.cannatella@tudelft.nl">Email</a>
+    <a class="dc-about-link" href="https://github.com/your-github" target="_blank">GitHub</a>
+    <a class="dc-about-link" href="https://linkedin.com/in/your-linkedin" target="_blank">LinkedIn</a>
+    <a class="dc-about-link" href="https://scholar.google.com/your-profile" target="_blank">Google Scholar</a>
+    <a class="dc-about-link" href="https://rbanism.org" target="_blank">Rbanism ↗</a>
+  </div>
+  <div class="dc-coords">52.0067° N · 4.3565° E · Delft, The Netherlands</div>
+</div>
+
+<!-- MOSAIC 1 -->
+<div class="dc-mosaic dc-mosaic-3">
+  <div class="dc-mosaic-tall"><img src="images/photo-1.jpg" alt="Daniele Cannatella"></div>
+  <div class="dc-mosaic-sq"><img src="images/photo-2.jpg" alt="fieldwork"></div>
+</div>
+
+<!-- MY JOURNEY -->
+<div class="dc-section">
+  <div class="dc-section-eyebrow">My Journey</div>
+  <h2 class="dc-section-title">Where it started</h2>
+  <div class="dc-body">
+    <p>[Your personal story here — what drew you to urbanism and spatial data? What shaped your trajectory? This is where readers connect with you before looking at publications.]</p>
+    <p>[Continue the story — your path through disciplines, the questions that kept coming back, the moment you knew this was the work you wanted to do.]</p>
+  </div>
+</div>
+
+<!-- MOSAIC 2 -->
+<div class="dc-mosaic dc-mosaic-2">
+  <div class="dc-mosaic-wide"><img src="images/photo-3.jpg" alt="urban fieldwork"></div>
+  <div class="dc-mosaic-wide"><img src="images/photo-4.jpg" alt="teaching"></div>
+</div>
+
+<!-- BACKGROUND -->
+<div class="dc-section">
+  <div class="dc-section-eyebrow">Background</div>
+  <h2 class="dc-section-title">Academic training & trajectory</h2>
+  <div class="dc-body">
+    <p>[Describe your academic training — degrees, institutions, disciplines. Frame it as a journey, not a CV list. What did each stage add to your thinking?]</p>
+    <p>[Continue into your current role — the Section of Urban Data Science, what you do there, how research, teaching, and community-building intertwine.]</p>
+  </div>
+  <div class="dc-highlights">
+    <span class="dc-highlight">Urban Data Science · TU Delft</span>
+    <span class="dc-highlight">[Degree] · [Institution]</span>
+    <span class="dc-highlight">[Degree] · [Institution]</span>
+    <span class="dc-highlight">MSc Urbanism GIS Coordinator</span>
+    <span class="dc-highlight">Rbanism · Co-founder</span>
+  </div>
+</div>
+
+<!-- MOSAIC 3 -->
+<div class="dc-mosaic dc-mosaic-3b">
+  <div class="dc-mosaic-sq"><img src="images/photo-5.jpg" alt="conference"></div>
+  <div class="dc-mosaic-tall"><img src="images/photo-6.jpg" alt="research"></div>
+</div>
+
+<!-- RESEARCH INTERESTS -->
+<div class="dc-section">
+  <div class="dc-section-eyebrow">Research Interests & Approach</div>
+  <h2 class="dc-section-title">How I think about cities</h2>
+  <div class="dc-body">
+    <p>My research sits at the intersection of urbanism, landscape architecture, and spatial data science — with urban resilience and climate adaptation as the central thread. I am drawn to questions about how cities respond to pressure, where they fail, and what kinds of spatial interventions actually make a measurable difference.</p>
+    <p>I work predominantly with quantitative methods — GIS, QGIS, R — applying spatial analysis and modeling to understand urban systems and assess the performance of design and planning solutions. What drives me is the belief that better questions and better tools can lead to better cities.</p>
+    <p>Lately I have been deeply curious about what artificial intelligence means for how we teach and practice spatial and urban design — not as a shortcut, but as a genuinely new way of engaging with complex spatial problems.</p>
+  </div>
+  <div class="dc-callout">
+    <span class="dc-callout-label">● Now · Active</span>
+    I am assembling a new research team and actively looking for collaborators — researchers, doctoral candidates, and practitioners who share a commitment to data-driven approaches to urban resilience. I am also seeking partnerships with municipalities and public organisations. → <a href="contact.qmd">Get in touch</a>
+  </div>
+</div>
+
+<!-- MOSAIC 4 -->
+<div class="dc-mosaic dc-mosaic-2">
+  <div class="dc-mosaic-wide"><img src="images/photo-7.jpg" alt="GIS workshop"></div>
+  <div class="dc-mosaic-wide"><img src="images/photo-8.jpg" alt="Rbanism"></div>
+</div>
+
+<!-- TEACHING & COMMUNITY -->
+<div class="dc-section">
+  <div class="dc-section-eyebrow">Teaching & Community</div>
+  <h2 class="dc-section-title">Building capacity, together</h2>
+  <div class="dc-body">
+    <p>I believe that methodological literacy is one of the most empowering things we can give to the next generation of urban professionals. At TU Delft, I coordinate the Spatial Data and GIS learning line in the MSc Urbanism programme — making rigorous spatial thinking accessible, reproducible, and genuinely useful for designers and planners.</p>
+    <p>I am also a founding and core member of the <a href="https://rbanism.org" target="_blank">Rbanism Community</a> — an open initiative advancing the use of R in urbanism and spatial research. Building that community has reinforced something I care about deeply: sharing methods and knowledge across disciplines makes all of our work better.</p>
+  </div>
+</div>
+
+<!-- MOSAIC 5 -->
+<div class="dc-mosaic dc-mosaic-3">
+  <div class="dc-mosaic-wide"><img src="images/photo-9.jpg" alt="students"></div>
+  <div class="dc-mosaic-sq"><img src="images/photo-10.jpg" alt="workshop"></div>
+</div>
+
+<!-- AFFILIATIONS -->
+<div class="dc-affiliations">
+  <a class="dc-affil-link" href="https://www.tudelft.nl" target="_blank">TU Delft</a>
+  <a class="dc-affil-link" href="https://www.tudelft.nl/bk/over-faculteit/afdelingen/urbanism" target="_blank">Dept. of Urbanism</a>
+  <a class="dc-affil-link" href="https://rbanism.org" target="_blank">Rbanism</a>
+  <a class="dc-affil-link" href="https://github.com/your-github" target="_blank">GitHub</a>
+  <a class="dc-affil-link" href="https://linkedin.com/in/your-linkedin" target="_blank">LinkedIn</a>
+  <a class="dc-affil-link" href="https://scholar.google.com/your-profile" target="_blank">Google Scholar</a>
+  <a class="dc-affil-link" href="https://twitter.com/your-twitter" target="_blank">Twitter/X</a>
+</div>
+```

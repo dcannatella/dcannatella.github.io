@@ -1,0 +1,96 @@
+---
+title: "Publications"
+toc: true
+toc-title: "Jump to"
+---
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+library(yaml)
+library(glue)
+
+# Find _data folder by walking up from current working directory
+find_data <- function(filename) {
+  path <- file.path("_data", filename)
+  if (file.exists(path)) return(path)
+  # try one level up
+  path2 <- file.path("..", "_data", filename)
+  if (file.exists(path2)) return(path2)
+  stop(paste("Cannot find", filename, "- checked:", path, "and", path2))
+}
+
+pubs <- yaml::read_yaml(find_data("publications.yml"))
+
+render_tags <- function(tags) {
+  if (is.null(tags)) return("")
+  spans <- paste0('<span class="dc-tag">', tags, '</span>', collapse = " ")
+  paste0('<div class="dc-tags" style="margin-top:0.75rem;">', spans, '</div>')
+}
+
+render_pub <- function(p) {
+  doi_html      <- if (!is.null(p$doi))      glue('<a class="dc-pub-link" href="https://doi.org/{p$doi}" target="_blank">DOI &rarr;</a>') else ""
+  pdf_html      <- if (!is.null(p$pdf))      glue('<a class="dc-pub-link" href="{p$pdf}" target="_blank">&darr; PDF</a>') else ""
+  abstract_html <- if (!is.null(p$abstract)) glue('<p class="dc-pub-abstract">{p$abstract}</p>') else ""
+  authors_fmt   <- gsub("\\*\\*(.*?)\\*\\*", "<strong>\\1</strong>", p$authors)
+  glue('
+<div class="dc-pub">
+  <div class="dc-pub-year">{p$year}</div>
+  <div class="dc-pub-title">{p$title}</div>
+  <div class="dc-pub-authors">{authors_fmt}</div>
+  <div class="dc-pub-venue">{p$journal}</div>
+  {abstract_html}
+  {render_tags(p$tags)}
+  <div class="dc-pub-links">{doi_html}{pdf_html}</div>
+</div>')
+}
+
+render_section <- function(items, label, number) {
+  if (is.null(items) || length(items) == 0) return(invisible(NULL))
+  cat(glue('<div class="dc-section-divider"><span class="dc-section-divider-label">{number} — {label}</span><div class="dc-section-divider-line"></div></div>\n'))
+  items <- items[order(sapply(items, function(p) p$year), decreasing = TRUE)]
+  for (p in items) cat(render_pub(p), "\n")
+}
+```
+
+```{=html}
+<style>
+.dc-pub-intro { font-family:'DM Mono',monospace; font-size:0.82rem; line-height:1.85; color:var(--dc-text-muted); max-width:680px; margin-bottom:1rem; }
+.dc-pub-scholar { font-family:'DM Mono',monospace; font-size:0.65rem; letter-spacing:0.08em; text-transform:uppercase; color:var(--dc-accent)!important; text-decoration:none!important; border-bottom:1px solid var(--dc-accent); padding-bottom:1px; display:inline-block; margin-bottom:2.5rem; }
+.dc-section-divider { display:flex; align-items:center; gap:1rem; margin:3rem 0 1.5rem; }
+.dc-section-divider-label { font-family:'DM Mono',monospace; font-size:0.58rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--dc-accent); white-space:nowrap; }
+.dc-section-divider-line { flex:1; height:1px; background:var(--dc-border); }
+.dc-pub { padding:1.5rem 0; border-bottom:1px solid var(--dc-border); display:grid; grid-template-columns:52px 1fr; gap:0 1.5rem; align-items:start; }
+.dc-pub-year { font-family:'DM Mono',monospace; font-size:0.65rem; letter-spacing:0.08em; color:var(--dc-accent); padding-top:0.15rem; text-align:right; }
+.dc-pub-title { font-family:'DM Serif Display',serif; font-size:1rem; letter-spacing:-0.01em; color:var(--dc-text); margin-bottom:0.35rem; line-height:1.35; }
+.dc-pub-authors { font-family:'DM Mono',monospace; font-size:0.72rem; color:var(--dc-text-muted); margin-bottom:0.2rem; }
+.dc-pub-authors strong { color:var(--dc-text); }
+.dc-pub-venue { font-family:'DM Mono',monospace; font-size:0.7rem; font-style:italic; color:var(--dc-text-muted); margin-bottom:0.5rem; }
+.dc-pub-abstract { font-family:'DM Mono',monospace; font-size:0.75rem; line-height:1.8; color:var(--dc-text-muted); margin:0.75rem 0 0.5rem; max-height:0; overflow:hidden; transition:max-height 0.4s ease; }
+.dc-pub:hover .dc-pub-abstract { max-height:200px; }
+.dc-pub-links { margin-top:0.75rem; display:flex; gap:0.75rem; }
+.dc-pub-link { font-family:'DM Mono',monospace; font-size:0.6rem; letter-spacing:0.08em; text-transform:uppercase; color:var(--dc-accent)!important; text-decoration:none!important; border-bottom:1px solid var(--dc-accent); padding-bottom:1px; transition:opacity 0.2s; }
+.dc-pub-link:hover { opacity:0.7; }
+.dc-tags { display:flex; flex-wrap:wrap; gap:0.3rem; }
+.dc-tag { font-family:'DM Mono',monospace; font-size:0.55rem; letter-spacing:0.08em; text-transform:uppercase; background:var(--dc-tag-bg); color:var(--dc-tag-text); padding:0.2rem 0.55rem; border-radius:2px; }
+@media (max-width:640px) { .dc-pub { grid-template-columns:1fr; } .dc-pub-year { text-align:left; margin-bottom:0.25rem; } }
+</style>
+```
+
+<p class="dc-pub-intro">
+
+For a complete and up-to-date list, visit my Google Scholar profile.
+
+</p>
+
+<a class="dc-pub-scholar" href="https://scholar.google.com/your-profile" target="_blank">Google Scholar →</a>
+
+```{r}
+#| echo: false
+#| output: asis
+render_section(pubs$journal,         "Journal Articles",        "01")
+render_section(pubs$`book-chapters`, "Book Chapters",           "02")
+render_section(pubs$conference,      "Conference Papers",        "03")
+render_section(pubs$reports,         "Reports & Other Outputs", "04")
+```

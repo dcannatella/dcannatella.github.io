@@ -1,0 +1,99 @@
+---
+title: "Research"
+toc: false
+---
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+library(yaml)
+library(glue)
+
+find_data <- function(filename) {
+  path <- file.path("_data", filename)
+  if (file.exists(path)) return(path)
+  path2 <- file.path("..", "_data", filename)
+  if (file.exists(path2)) return(path2)
+  stop(paste("Cannot find", filename))
+}
+
+projects <- yaml::read_yaml(find_data("projects.yml"))
+
+render_tags <- function(tags) {
+  if (is.null(tags)) return("")
+  spans <- paste0('<span class="dc-tag">', tags, '</span>', collapse = " ")
+  paste0('<div class="dc-tags">', spans, '</div>')
+}
+
+render_links <- function(links) {
+  if (is.null(links)) return("")
+  items <- sapply(links, function(l) glue('<a class="dc-proj-link" href="{l$url}" target="_blank">{l$label} &rarr;</a>'))
+  paste0('<div class="dc-proj-links">', paste(items, collapse = ""), '</div>')
+}
+
+render_project <- function(p, is_past = FALSE) {
+  status_html   <- if (!is_past) '<span class="dc-live" style="margin-bottom:0.75rem;display:inline-flex;">Now &middot; Active</span><br>' else ""
+  funder_html   <- if (!is.null(p$funder))   glue('<span class="dc-proj-meta">Funder: {p$funder}</span>') else ""
+  partners_html <- if (!is.null(p$partners)) glue('<span class="dc-proj-meta">Partners: {paste(p$partners, collapse=" &middot; ")}</span>') else ""
+  image_html    <- if (!is.null(p$image))    glue('<div class="dc-proj-image"><img src="{p$image}" alt="{p$title}"></div>') else ""
+  past_class    <- if (is_past) " past" else ""
+  glue('
+<div class="dc-proj-card{past_class}">
+  {image_html}
+  <div class="dc-proj-body">
+    {status_html}
+    <div class="dc-proj-year">{p$years}</div>
+    <h3 class="dc-proj-title">{p$title}</h3>
+    {funder_html}
+    {partners_html}
+    <p class="dc-proj-desc">{p$description}</p>
+    {render_tags(p$tags)}
+    {render_links(p$links)}
+  </div>
+</div>')
+}
+```
+
+```{=html}
+<style>
+.dc-research-intro { font-family:'DM Mono',monospace; font-size:0.82rem; line-height:1.85; color:var(--dc-text-muted); max-width:680px; margin-bottom:2.5rem; }
+.dc-section-divider { display:flex; align-items:center; gap:1rem; margin:3rem 0 2rem; }
+.dc-section-divider-label { font-family:'DM Mono',monospace; font-size:0.58rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--dc-accent); white-space:nowrap; }
+.dc-section-divider-line { flex:1; height:1px; background:var(--dc-border); }
+.dc-proj-card { border:1px solid var(--dc-border); background:var(--dc-bg-card); margin-bottom:1px; display:grid; grid-template-columns:260px 1fr; position:relative; overflow:hidden; transition:border-color 0.2s; }
+.dc-proj-card::before { content:''; position:absolute; top:0; left:0; bottom:0; width:2px; background:var(--dc-accent); transform:scaleY(0); transform-origin:top; transition:transform 0.3s; }
+.dc-proj-card:hover::before { transform:scaleY(1); }
+.dc-proj-card:hover { border-color:rgba(45,106,159,0.3); }
+.dc-proj-image { overflow:hidden; background:var(--dc-bg-2); }
+.dc-proj-image img { width:100%; height:100%; object-fit:cover; display:block; filter:grayscale(20%); transition:filter 0.4s,transform 0.4s; }
+.dc-proj-card:hover .dc-proj-image img { filter:grayscale(0%); transform:scale(1.03); }
+.dc-proj-body { padding:2rem 2.25rem; }
+.dc-proj-year { font-family:'DM Mono',monospace; font-size:0.6rem; letter-spacing:0.12em; text-transform:uppercase; color:var(--dc-accent); margin-bottom:0.5rem; }
+.dc-proj-title { font-family:'DM Serif Display',serif!important; font-size:1.25rem!important; letter-spacing:-0.02em!important; color:var(--dc-text)!important; margin-bottom:0.75rem!important; }
+.dc-proj-meta { display:block; font-family:'DM Mono',monospace; font-size:0.62rem; color:var(--dc-text-muted); margin-bottom:0.25rem; }
+.dc-proj-desc { font-family:'DM Mono',monospace; font-size:0.78rem; line-height:1.85; color:var(--dc-text-muted); margin:1rem 0; }
+.dc-tags { display:flex; flex-wrap:wrap; gap:0.35rem; margin-bottom:1.25rem; }
+.dc-tag { font-family:'DM Mono',monospace; font-size:0.58rem; letter-spacing:0.08em; text-transform:uppercase; background:var(--dc-tag-bg); color:var(--dc-tag-text); padding:0.25rem 0.6rem; border-radius:2px; }
+.dc-proj-links { display:flex; flex-wrap:wrap; gap:0.6rem; }
+.dc-proj-link { font-family:'DM Mono',monospace; font-size:0.62rem; letter-spacing:0.08em; text-transform:uppercase; color:var(--dc-accent)!important; text-decoration:none!important; border-bottom:1px solid var(--dc-accent); padding-bottom:1px; transition:opacity 0.2s; }
+.dc-proj-link:hover { opacity:0.7; }
+.dc-proj-card.past { opacity:0.82; }
+.dc-proj-card.past:hover { opacity:1; }
+@media (max-width:768px) { .dc-proj-card { grid-template-columns:1fr; } .dc-proj-image { height:180px; } .dc-proj-body { padding:1.5rem; } }
+</style>
+```
+
+<p class="dc-research-intro">
+My research moves between urbanism, landscape architecture, and spatial data science — always with an eye on what the data can actually tell us about how cities work, fail, and adapt. I use GIS, QGIS, and R to analyze, model, and assess how cities respond to climate pressures and how interventions perform on the ground.
+</p>
+
+```{r}
+#| echo: false
+#| output: asis
+cat('<div class="dc-section-divider"><span class="dc-section-divider-label">01 — Current Projects</span><div class="dc-section-divider-line"></div></div>')
+for (p in projects$current) cat(render_project(p, is_past = FALSE), "\n")
+
+cat('<div class="dc-section-divider" style="margin-top:4rem;"><span class="dc-section-divider-label">02 — Past Research</span><div class="dc-section-divider-line"></div></div>')
+for (p in projects$past) cat(render_project(p, is_past = TRUE), "\n")
+```

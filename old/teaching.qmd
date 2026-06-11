@@ -1,0 +1,48 @@
+---
+title: "Teaching"
+---
+
+I believe that methodological literacy is one of the most empowering things we can give to the next generation of urban professionals. My teaching connects spatial data science with design thinking — helping students ask better questions, work with real data, and build rigorous, reproducible workflows.
+
+## Teaching Philosophy
+
+I approach teaching as an act of translation: between disciplines, between methods, and between data and design. I want students to leave my courses not just knowing how to run an analysis, but understanding *why* it matters and *how* to communicate what they find.
+
+I am also actively exploring the role of artificial intelligence in spatial and urban design education — not as a shortcut, but as a genuinely new way of engaging with complex urban problems.
+
+[→ Download my full Teaching Statement](docs/Teaching_Statement_Cannatella.pdf)
+
+---
+
+## Courses
+
+### Spatial Data & GIS — MSc Urbanism Learning Line
+*TU Delft · Department of Urbanism · Coordinator*
+
+This learning line runs across the MSc Urbanism programme, equipping students with the spatial data skills needed for contemporary urban research and design practice. It covers GIS fundamentals, spatial analysis, and data-driven approaches to urban problem-solving using QGIS and R.
+
+[→ Download Syllabus](docs/syllabus_spatial_data_gis.pdf)
+
+---
+
+### [Course Title — Placeholder]
+*TU Delft · [Level] · [Role: Lecturer / Coordinator]*
+
+[Short course description — what students learn, what tools or methods are covered, how it fits into the broader programme.]
+
+[→ Download Syllabus](docs/syllabus_placeholder.pdf)
+
+---
+
+### [Course Title — Placeholder]
+*TU Delft · [Level] · [Role]*
+
+[Short course description.]
+
+[→ Download Syllabus](docs/syllabus_placeholder.pdf)
+
+---
+
+## Tools & Resources
+
+Students and colleagues looking for learning resources on R for urbanism can explore the [Rbanism Community](https://rbanism.org), which I co-founded, and which hosts tutorials, workshops, and open materials for urbanists working with spatial data.

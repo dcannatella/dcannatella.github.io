@@ -1,0 +1,54 @@
+---
+title: "Speaking"
+---
+
+I speak on urban resilience, climate adaptation, spatial data science, and the role of computational methods and AI in urban design education. I am open to invitations for keynotes, panel discussions, workshops, and guest lectures.
+
+[→ Get in touch about speaking](contact.qmd)
+
+---
+
+## Upcoming
+
+### [Event Title — Placeholder]
+*[Date] · [Conference / Institution] · [City, Country]*
+
+[Short description of the talk or panel topic.]
+
+---
+
+## Past Engagements
+
+### [Talk / Keynote Title — Placeholder]
+*[Year] · [Conference / Institution] · [City, Country]*
+
+[Short description — what was the event, what did you speak about, any notable outcomes or audience.]
+
+[→ Slides](docs/slides/talk1.pdf) · [→ Recording](https://link-to-recording.com)
+
+---
+
+### [Workshop Title — Placeholder]
+*[Year] · [Institution] · [City, Country]*
+
+[Short description.]
+
+---
+
+### [Panel / Guest Lecture — Placeholder]
+*[Year] · [Institution] · [City, Country]*
+
+[Short description.]
+
+---
+
+## Invite Me to Speak
+
+I am available for:
+
+- **Keynotes & invited talks** on urban resilience, climate adaptation, and spatial data science
+- **Workshops** on GIS, R, and computational methods for urban research
+- **Panel discussions** on AI in design education and the future of urban data practice
+- **Guest lectures** for MSc and PhD programmes
+
+[→ Contact me](contact.qmd)

@@ -1,0 +1,44 @@
+---
+title: "Contact"
+---
+
+I am always open to conversations about research, collaboration, teaching, and ideas. Here is how to reach me and what I am currently looking for.
+
+---
+
+## Get in Touch
+
+**Email:** [d.cannatella@tudelft.nl](mailto:d.cannatella@tudelft.nl)
+
+**Office:** Faculty of Architecture and the Built Environment, TU Delft  
+Julianalaan 134, 2628 BL Delft, The Netherlands
+
+---
+
+## I Am Currently Looking For
+
+::: {.callout-tip appearance="simple"}
+### 🔬 Research Collaborators
+I am assembling a team for an upcoming research project on [theme — placeholder]. If you work on urban resilience, climate adaptation, or spatial data science and are looking for a collaborative project, I'd love to hear from you.
+:::
+
+::: {.callout-note appearance="simple"}
+### 🏛️ Municipal & Practice Partners
+I am interested in partnerships with municipalities and public organizations where rigorous spatial analysis can inform planning, policy, and climate adaptation strategies. If you are working on urban challenges that need a data-driven perspective, let's talk.
+:::
+
+::: {.callout-note appearance="simple"}
+### 🎓 Academic Partners
+Open to research collaborations, joint grant applications, and co-supervision of doctoral research in areas related to urban resilience, spatial data science, and climate adaptation.
+:::
+
+---
+
+## Find Me Online
+
+- [GitHub](https://github.com/your-github)
+- [LinkedIn](https://linkedin.com/in/your-linkedin)
+- [Twitter / X](https://twitter.com/your-twitter)
+- [Google Scholar](https://scholar.google.com/your-profile)
+- [Rbanism Community](https://rbanism.org)
+- [TU Delft Profile](https://www.tudelft.nl/your-profile)

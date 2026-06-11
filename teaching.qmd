@@ -1,0 +1,194 @@
+---
+title: " "
+page-layout: full
+toc: false
+---
+
+```{=html}
+<div style="max-width:1300px;margin:0 auto;">
+
+<!-- Header -->
+<div style="padding:5rem 4rem 3rem;border-bottom:1px solid var(--border-md);">
+  <div class="dc-eyebrow">Teaching</div>
+  <h1 class="dc-heading" style="font-size:clamp(2.5rem,4vw,3.75rem);margin-bottom:1.5rem;">
+    Building capacity, <em class="dc-heading-em">together.</em>
+  </h1>
+  <p class="dc-body" style="max-width:640px;">
+    Methodological literacy is one of the most empowering things we can give the next generation of urban professionals. My teaching aims to make rigorous spatial thinking accessible, reproducible, and genuinely useful — for designers, planners, and researchers alike.
+  </p>
+</div>
+
+<!-- Teaching philosophy -->
+<div style="padding:5rem 4rem;display:grid;grid-template-columns:1fr 1fr;gap:5rem;border-bottom:1px solid var(--border-md);">
+  <div class="dc-reveal">
+    <div class="dc-eyebrow">Philosophy</div>
+    <h2 class="dc-heading" style="font-size:clamp(1.75rem,2.5vw,2.25rem);margin-bottom:1.5rem;">
+      Data as a <em class="dc-heading-em">design tool.</em>
+    </h2>
+    <p class="dc-body" style="margin-bottom:1.25rem;">
+      The data revolution gave us new instruments — but more importantly, it gave us a new way of thinking. I teach from this premise: that <strong>learning to work with spatial data is not a technical skill, it is a cognitive shift</strong> that allows designers and planners to engage with complexity at a scale that was previously impossible.
+    </p>
+    <p class="dc-body" style="margin-bottom:1.25rem;">
+      Maps are everywhere now. Perhaps there has never been a moment when so many people could read and use a map — to navigate, to understand, to advocate. That is a profound cultural shift, and it carries a responsibility: to teach data literacy as a form of civic and creative power.
+    </p>
+    <p class="dc-body">
+      I also research and teach the role of <strong>AI in spatial design education</strong> — exploring how computational intelligence can become a design partner, and what new literacies students need to work with it critically and creatively.
+    </p>
+  </div>
+  <div class="dc-reveal">
+    <div class="dc-photo-frame" style="aspect-ratio:4/5;">
+      <div class="dc-img-ph">Teaching photo</div>
+    </div>
+  </div>
+</div>
+
+<!-- Platforms & community -->
+<div style="padding:5rem 4rem;background:var(--lime-pale);border-bottom:1px solid var(--border-md);">
+  <div class="dc-reveal">
+    <div class="dc-eyebrow">Platforms & Community</div>
+    <h2 class="dc-heading" style="font-size:clamp(1.75rem,2.5vw,2.25rem);margin-bottom:2rem;">
+      Open methods for <em class="dc-heading-em">open cities.</em>
+    </h2>
+    <ul class="dc-capacity-list">
+      <li><strong>Spatial Data & GIS learning line</strong> — MSc Urbanism, TU Delft. Coordinating a programme-wide learning line that builds spatial data literacy across the masters curriculum.</li>
+      <li><strong>SD&GIS Education Platform</strong> — an open platform of GIS and R workflows for spatial design education. Practical, reproducible, freely accessible. <a href="https://your-sdgis-platform.com" target="_blank" style="color:var(--forest-2);">Visit platform ↗</a></li>
+      <li><strong>Rbanism Community</strong> — founding and core member of the open community advancing the use of R in urbanism and spatial research. <a href="https://rbanism.org" target="_blank" style="color:var(--forest-2);">rbanism.org ↗</a></li>
+      <li><strong>AI in Spatial Design Education</strong> — ongoing research into how computational intelligence changes how we teach and practice design.</li>
+    </ul>
+    <div class="dc-btns" style="margin-top:0.5rem;">
+      <a href="https://your-sdgis-platform.com" class="dc-btn dc-btn-lime" target="_blank">SD&GIS Platform ↗</a>
+      <a href="https://rbanism.org" class="dc-btn dc-btn-outline" target="_blank">Rbanism ↗</a>
+    </div>
+  </div>
+</div>
+
+<!-- Courses -->
+<div style="padding:5rem 4rem;border-bottom:1px solid var(--border-md);">
+  <div class="dc-reveal">
+    <div class="dc-eyebrow">Courses</div>
+    <h2 class="dc-heading" style="font-size:clamp(1.5rem,2vw,2rem);margin-bottom:2rem;">
+      Current & recent <em class="dc-heading-em">teaching.</em>
+    </h2>
+    <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--border-md);">
+      <div class="dc-card" style="border:none;">
+        <div style="font-family:var(--f-mono);font-size:0.52rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--forest-2);margin-bottom:0.5rem;">MSc Urbanism · TU Delft</div>
+        <h3 class="dc-work-title">Applied Spatial Analytics for SUstainable Urban Future</h3>
+        <p style="font-family:var(--f-display);font-size:0.82rem;line-height:1.75;color:var(--muted);">[Brief description of what students do, what methods they learn, what skills they leave with.]</p>
+        <a href="https://www.studyguide.tudelft.nl/opleidingen/study-guide/educations/10541#/details/11176" class="dc-btn dc-btn-outline" style="margin-top:1rem;font-size:0.5rem;">Syllabus ↓</a>
+      </div>
+      <div class="dc-card" style="border:none;">
+        <div style="font-family:var(--f-mono);font-size:0.52rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--forest-2);margin-bottom:0.5rem;">MSc Urbanism · TU Delft</div>
+        <h3 class="dc-work-title">Geographical Information Systems (GIS) and Cartography</h3>
+        <p style="font-family:var(--f-display);font-size:0.82rem;line-height:1.75;color:var(--muted);">[Brief description.]</p>
+        <a href="https://www.studyguide.tudelft.nl/opleidingen/study-guide/educations/10542#/details/106796" class="dc-btn dc-btn-outline" style="margin-top:1rem;font-size:0.5rem;">Syllabus ↓</a>
+      </div>
+      <div class="dc-card" style="border:none;">
+        <div style="font-family:var(--f-mono);font-size:0.52rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--forest-2);margin-bottom:0.5rem;">MSc Urbanism · TU Delft</div>
+        <h3 class="dc-work-title">Area (Re)development - GeoExpert Role</h3>
+        <p style="font-family:var(--f-display);font-size:0.82rem;line-height:1.75;color:var(--muted);">[Brief description.]</p>
+        <a href="https://www.studyguide.tudelft.nl/opleidingen/study-guide/educations/10540#/details/10652" class="dc-btn dc-btn-outline" style="margin-top:1rem;font-size:0.5rem;">Syllabus ↓</a>
+      </div>
+      <div class="dc-card" style="border:none;">
+        <div style="font-family:var(--f-mono);font-size:0.52rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--forest-2);margin-bottom:0.5rem;">Workshop</div>
+        <h3 class="dc-work-title">[Workshop Name]</h3>
+        <p style="font-family:var(--f-display);font-size:0.82rem;line-height:1.75;color:var(--muted);">[Brief description.]</p>
+      </div>
+    </div>
+  </div>
+</div>
+```
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+library(yaml); library(glue)
+
+find_data <- function(f) {
+  p <- file.path("_data", f); if (file.exists(p)) return(p)
+  p2 <- file.path("..", "_data", f); if (file.exists(p2)) return(p2)
+  stop(paste("Cannot find", f))
+}
+
+theses_data <- yaml::read_yaml(find_data("theses.yml"))
+theses <- theses_data$theses
+theses <- theses[order(sapply(theses, function(t) t$year), decreasing=TRUE)]
+
+render_tags <- function(tags) {
+  if (is.null(tags)) return("")
+  spans <- paste0('<span class="dc-tag">', tags, '</span>', collapse=" ")
+  paste0('<div class="dc-tag-row" style="margin-top:0.6rem;">', spans, '</div>')
+}
+
+render_thesis <- function(t) {
+  grade <- if (!is.null(t$grade) && nchar(t$grade) > 0)
+    glue('<span style="background:var(--lime);color:var(--ink);font-family:var(--f-mono);font-size:0.48rem;letter-spacing:0.08em;padding:0.18rem 0.55rem;margin-left:0.6rem;">{t$grade}</span>') else ""
+  url_btn <- if (!is.null(t$url) && nchar(t$url) > 0)
+    glue('<a class="dc-pub-link" href="{t$url}" target="_blank">Repository &rarr;</a>') else ""
+  links <- if (nchar(url_btn) > 0)
+    paste0('<div class="dc-pub-links" style="margin-top:0.5rem;">', url_btn, '</div>') else ""
+  glue('
+<div class="dc-pub">
+<div class="dc-pub-year">{t$year}</div>
+<div>
+<div class="dc-pub-title" style="font-size:0.92rem;">{t$title}{grade}</div>
+<div class="dc-pub-authors" style="margin-top:0.3rem;">
+{t$student}
+<span style="opacity:0.4;margin:0 0.4rem;">&middot;</span>
+{t$programme}, {t$institution}
+<span style="opacity:0.4;margin:0 0.4rem;">&middot;</span>
+<em>{t$role}</em>
+</div>
+{render_tags(t$tags)}
+{links}
+</div>
+</div>')
+}
+```
+
+```{=html}
+<!-- Supervised Theses -->
+<div style="padding:5rem 4rem;border-bottom:1px solid var(--border-md);">
+  <div class="dc-reveal">
+    <div class="dc-eyebrow">Supervision</div>
+    <h2 class="dc-heading" style="font-size:clamp(1.5rem,2vw,2rem);margin-bottom:0.75rem;">
+      MSc Graduation <em class="dc-heading-em">Projects.</em>
+    </h2>
+    <p class="dc-body" style="margin-bottom:2rem;max-width:580px;">
+      Supervised graduation projects in the MSc Urbanism and MSc Landscape Architecture programmes at TU Delft. Sorted by year. Hover any entry to reveal topic tags.
+    </p>
+```
+
+```{r}
+#| echo: false
+#| output: asis
+for (t in theses) cat(render_thesis(t), "\n")
+```
+
+```{=html}
+  </div>
+</div>
+
+<!-- Student opportunities -->
+<div style="padding:5rem 4rem;background:var(--forest);">
+  <div class="dc-reveal" style="max-width:700px;margin:0 auto;text-align:center;">
+    <div class="dc-eyebrow" style="justify-content:center;color:var(--lime);opacity:0.7;">For students</div>
+    <h2 class="dc-heading" style="font-size:clamp(1.75rem,2.5vw,2.25rem);color:white !important;margin-bottom:1.25rem;">
+      Looking for a graduation project<br>or <em style="font-family:var(--f-serif);font-style:italic;font-weight:400;color:var(--lime);">research opportunity?</em>
+    </h2>
+    <p style="font-family:var(--f-display);font-size:0.88rem;line-height:1.8;color:rgba(248,247,242,0.55);margin-bottom:2rem;">
+      If your interests touch urban resilience, climate adaptation, spatial data science, or landscape-based design — and you want to work at the intersection of methods and real urban challenges — get in touch. I am open to discussing thesis topics, co-supervision, and research assistantships.
+    </p>
+    <a href="contact.qmd" class="dc-btn dc-btn-lime-inv">Get in Touch →</a>
+  </div>
+</div>
+
+</div>
+
+<script>
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); obs.unobserve(e.target); } });
+}, { threshold: 0.08 });
+document.querySelectorAll('.dc-reveal').forEach(el => obs.observe(el));
+</script>
+```

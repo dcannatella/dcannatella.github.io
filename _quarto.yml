@@ -1,0 +1,65 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Daniele Cannatella"
+  description: "Spatial Data · Urban Resilience · Climate Adaptation · TU Delft"
+  favicon: images/favicon.ico
+
+  navbar:
+    background: "#F8F7F2"
+    foreground: "#16180F"
+    left:
+      - href: index.qmd
+        text: About
+      - href: research.qmd
+        text: Research
+      - href: teaching.qmd
+        text: Teaching
+      - href: publications.qmd
+        text: Publications
+      - href: speaking.qmd
+        text: Speaking
+      - href: contact.qmd
+        text: Contact
+      - text: "Blog ↗"
+        href: https://your-blog-url.com
+        target: _blank
+    right:
+      - icon: github
+        href: https://github.com/your-github
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://linkedin.com/in/your-linkedin
+        aria-label: LinkedIn
+      - icon: mortarboard-fill
+        href: https://scholar.google.com/your-profile
+        aria-label: Google Scholar
+
+  page-footer:
+    background: "#16180F"
+    foreground: "#F8F7F2"
+    left: "© 2025 Daniele Cannatella · TU Delft"
+    center: "52.0067° N · 4.3565° E · Delft, NL"
+    right:
+      - icon: github
+        href: https://github.com/your-github
+      - icon: linkedin
+        href: https://linkedin.com/in/your-linkedin
+      - icon: envelope
+        href: mailto:d.cannatella@tudelft.nl
+
+  search: false
+
+format:
+  html:
+    theme: [flatly, styles.scss]
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    link-external-icon: false
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,700;12..96,800&family=Lora:ital,wght@0,400;0,600;1,400;1,600&family=Space+Mono:ital,wght@0,400;1,400&display=swap" rel="stylesheet">

@@ -1,0 +1,85 @@
+---
+title: " "
+page-layout: full
+toc: true
+toc-title: "Jump to"
+---
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+library(yaml); library(glue)
+
+find_data <- function(f) {
+  p <- file.path("_data", f); if (file.exists(p)) return(p)
+  p2 <- file.path("..", "_data", f); if (file.exists(p2)) return(p2)
+  stop(paste("Cannot find", f))
+}
+
+pubs <- yaml::read_yaml(find_data("publications.yml"))
+
+render_tags <- function(tags) {
+  if (is.null(tags)) return("")
+  spans <- paste0('<span class="dc-tag">', tags, '</span>', collapse=" ")
+  paste0('<div class="dc-tag-row" style="margin-top:0.6rem;">', spans, '</div>')
+}
+
+render_pub <- function(p) {
+  doi  <- if (!is.null(p$doi)) glue('<a class="dc-pub-link" href="https://doi.org/{p$doi}" target="_blank">DOI &rarr;</a>') else ""
+  pdf  <- if (!is.null(p$pdf)) glue('<a class="dc-pub-link" href="{p$pdf}" target="_blank">&darr; PDF</a>') else ""
+  abst <- if (!is.null(p$abstract)) glue('<p class="dc-pub-abstract">{p$abstract}</p>') else ""
+  auth <- gsub("\\*\\*(.*?)\\*\\*", "<strong>\\1</strong>", p$authors)
+  glue('
+<div class="dc-pub">
+  <div class="dc-pub-year">{p$year}</div>
+  <div>
+  <div class="dc-pub-title">{p$title}</div>
+  <div class="dc-pub-authors">{auth}</div>
+  <div class="dc-pub-venue">{p$journal}</div>
+  {abst}
+  {render_tags(p$tags)}
+  <div class="dc-pub-links">{doi}{pdf}</div>
+  </div>
+</div>')
+}
+
+render_section <- function(items, label, num) {
+  if (is.null(items) || length(items)==0) return(invisible(NULL))
+  cat(glue('\n\n## {label}\n\n'))
+  cat(glue('<div class="dc-divider"><span class="dc-divider-label">{num} — {label}</span><div class="dc-divider-line"></div></div>\n'))
+  items <- items[order(sapply(items, function(p) p$year), decreasing=TRUE)]
+  for (p in items) cat(render_pub(p), "\n")
+}
+```
+
+```{=html}
+<div style="max-width:1100px;margin:0 auto;padding:5rem 4rem 2rem;">
+  <div class="dc-eyebrow">Publications</div>
+  <h1 class="dc-heading" style="font-size:clamp(2.5rem,4vw,3.5rem);margin-bottom:1.5rem;">
+    Written <em class="dc-heading-em">work.</em>
+  </h1>
+  <p class="dc-body" style="margin-bottom:1rem;">
+    For a complete and up-to-date list, see my Google Scholar profile.
+  </p>
+  <a class="dc-btn dc-btn-lime" href="https://scholar.google.com/citations?hl=it&user=YQQ4_R0AAAAJ" target="_blank" style="margin-bottom:3rem;display:inline-flex;">Google Scholar &rarr;</a>
+  <p style="font-family:var(--f-mono);font-size:0.55rem;color:var(--muted);letter-spacing:0.06em;opacity:0.6;">
+    Hover any entry to reveal abstract.
+  </p>
+</div>
+
+<div style="max-width:1100px;margin:0 auto;padding:0 4rem 5rem;">
+```
+
+```{r}
+#| echo: false
+#| output: asis
+render_section(pubs$journal,          "Journal Articles",        "01")
+render_section(pubs$`book-chapters`,  "Book Chapters",           "02")
+render_section(pubs$conference,       "Conference Papers",        "03")
+render_section(pubs$reports,          "Reports & Other Outputs", "04")
+```
+
+```{=html}
+</div>
+```

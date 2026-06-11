@@ -1,0 +1,91 @@
+# ============================================================
+# projects.yml — Edit this file to update the Research page
+# ============================================================
+# Each project has these fields:
+#   title       (required)
+#   status      current | completed
+#   years       e.g. "2024 — ongoing" or "2021 — 2023"
+#   funder      funding body or institution (optional)
+#   partners    list of partner organisations (optional)
+#   description short paragraph (required)
+#   tags        list of keyword tags (optional)
+#   image       path to image in images/ folder (optional)
+#   links       list of {label, url} pairs (optional)
+# ============================================================
+
+current:
+  - title: "Urban Resilience Assessment Framework for Dutch Municipalities"
+    status: current
+    years: "2025 — ongoing"
+    funder: "[Funder name — e.g. NWO, TU Delft, municipality]"
+    partners:
+      - "TU Delft — Urban Data Science"
+      - "[Partner organisation]"
+      - "[Municipality name]"
+    description: >
+      [Describe the project here — what is the core research question?
+      What methods are you using? What problem does it address and for whom?
+      What will success look like? 2–4 sentences is ideal.]
+    tags:
+      - Urban Resilience
+      - GIS
+      - Climate Adaptation
+      - Spatial Modeling
+    image: "images/project-1.jpg"
+    links:
+      - label: "Project page"
+        url: "#"
+      - label: "GitHub"
+        url: "#"
+
+  - title: "[Second Current Project Title]"
+    status: current
+    years: "2024 — ongoing"
+    funder: "[Funder]"
+    partners:
+      - "[Partner]"
+    description: >
+      [Description of second current project.]
+    tags:
+      - Climate Adaptation
+      - R
+      - Urban Data
+    image: "images/project-2.jpg"
+    links:
+      - label: "Read more"
+        url: "#"
+
+past:
+  - title: "[Past Project Title]"
+    status: completed
+    years: "2021 — 2023"
+    funder: "[Funder]"
+    partners:
+      - "[Partner 1]"
+      - "[Partner 2]"
+    description: >
+      [Description of the completed project — focus, methods, key findings
+      or outcomes. What did it produce?]
+    tags:
+      - Urban Resilience
+      - Landscape Architecture
+      - Multi-criteria
+    image: "images/project-past-1.jpg"
+    links:
+      - label: "Final report"
+        url: "#"
+      - label: "Publication"
+        url: "#"
+
+  - title: "[Past Project Title]"
+    status: completed
+    years: "2019 — 2021"
+    funder: "[Funder]"
+    description: >
+      [Description.]
+    tags:
+      - GIS
+      - Spatial Analysis
+    links:
+      - label: "Publication"
+        url: "#"

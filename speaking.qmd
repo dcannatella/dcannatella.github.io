@@ -1,0 +1,94 @@
+---
+title: " "
+page-layout: full
+toc: false
+---
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+library(yaml); library(glue)
+
+find_data <- function(f) {
+  p <- file.path("_data", f); if (file.exists(p)) return(p)
+  p2 <- file.path("..", "_data", f); if (file.exists(p2)) return(p2)
+  stop(paste("Cannot find", f))
+}
+
+talks_data <- yaml::read_yaml(find_data("speaking.yml"))
+talks <- talks_data$talks
+
+# Sort by date descending
+talks <- talks[order(sapply(talks, function(t) t$date), decreasing=TRUE)]
+
+upcoming <- Filter(function(t) isTRUE(t$upcoming), talks)
+past     <- Filter(function(t) !isTRUE(t$upcoming), talks)
+
+type_label <- function(type) {
+  switch(type,
+    keynote   = "Keynote",
+    invited   = "Invited Talk",
+    conference= "Conference",
+    panel     = "Panel",
+    workshop  = "Workshop",
+    type)
+}
+
+render_talk <- function(t) {
+  date_fmt <- format(as.Date(t$date), "%b %Y")
+  upcoming_badge <- if (isTRUE(t$upcoming)) '<span class="dc-talk-upcoming">Upcoming</span>' else ""
+  slides <- if (!is.null(t$slides)) glue('<a class="dc-pub-link" href="{t$slides}" target="_blank">&darr; Slides</a>') else ""
+  video  <- if (!is.null(t$video))  glue('<a class="dc-pub-link" href="{t$video}" target="_blank">▶ Video</a>') else ""
+  links  <- if (nchar(slides)>0 || nchar(video)>0) paste0('<div class="dc-pub-links">', slides, video, '</div>') else ""
+  abst   <- if (!is.null(t$abstract)) glue('<p style="font-family:var(--f-display);font-size:0.75rem;line-height:1.75;color:var(--muted);margin-top:0.5rem;">{t$abstract}</p>') else ""
+  glue('
+<div class="dc-talk">
+  {upcoming_badge}
+  <div class="dc-talk-date">{date_fmt}<br><span style="opacity:0.6;">{type_label(t$type)}</span></div>
+  <div>
+    <div class="dc-talk-title">{t$title}</div>
+    <div class="dc-talk-event">{t$event}</div>
+    <div class="dc-talk-location">{t$location}</div>
+    {abst}
+    {links}
+  </div>
+</div>')
+}
+```
+
+```{=html}
+<div style="max-width:1100px;margin:0 auto;padding:5rem 4rem;">
+  <div class="dc-eyebrow">Speaking</div>
+  <h1 class="dc-heading" style="font-size:clamp(2.5rem,4vw,3.5rem);margin-bottom:1.5rem;">
+    Talks & <em class="dc-heading-em">Presentations.</em>
+  </h1>
+  <p class="dc-body" style="max-width:580px;margin-bottom:1.5rem;">
+    I speak on urban resilience, spatial data science, climate adaptation, and the role of data and AI in design education. To invite me to speak, <a href="contact.qmd">get in touch</a>.
+  </p>
+
+  <!-- Invite CTA -->
+  <div style="background:var(--lime-pale);border:1px solid var(--border-md);padding:1.5rem 2rem;max-width:580px;margin-bottom:3rem;border-left:3px solid var(--lime);">
+    <p style="font-family:var(--f-display);font-size:0.85rem;line-height:1.75;color:var(--muted);margin-bottom:0.75rem;">
+      <strong style="color:var(--ink);">Interested in an invitation?</strong> I am available for keynotes, panel contributions, workshops, and lectures on urban data science, climate adaptation, and AI in spatial education.
+    </p>
+    <a href="contact.qmd" class="dc-btn dc-btn-lime" style="font-size:0.52rem;">Invite me to speak →</a>
+  </div>
+```
+
+```{r}
+#| echo: false
+#| output: asis
+
+if (length(upcoming) > 0) {
+  cat('<div class="dc-divider"><span class="dc-divider-label">Upcoming</span><div class="dc-divider-line"></div></div>\n')
+  for (t in upcoming) cat(render_talk(t), "\n")
+}
+
+cat('<div class="dc-divider" style="margin-top:3rem;"><span class="dc-divider-label">Past Talks</span><div class="dc-divider-line"></div></div>\n')
+for (t in past) cat(render_talk(t), "\n")
+```
+
+```{=html}
+</div>
+```

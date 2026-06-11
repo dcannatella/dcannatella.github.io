@@ -1,0 +1,45 @@
+# ============================================================
+# speaking.yml
+# Edit this file to update the Speaking page.
+#
+# Fields per entry:
+#   title     talk title (required)
+#   event     conference or event name
+#   date      YYYY-MM-DD format (required — used for sorting)
+#   location  City, Country
+#   type      keynote | invited | conference | panel | workshop
+#   upcoming  true | false
+#   slides    path to slides PDF or URL
+#   video     URL to recording
+#   abstract  short description
+# ============================================================
+
+talks:
+  - title: "Your Talk Title"
+    event: "Conference Name"
+    date: "2025-06-15"
+    location: "Amsterdam, Netherlands"
+    type: invited
+    upcoming: true
+    abstract: >
+      Short description of what this talk is about.
+
+  - title: "Another Talk"
+    event: "Symposium on Urban Data Science"
+    date: "2024-11-08"
+    location: "Delft, Netherlands"
+    type: keynote
+    upcoming: false
+    slides: "docs/slides/talk-2024.pdf"
+    abstract: >
+      Description.
+
+  - title: "GIS and R for Urban Resilience"
+    event: "Rbanism Community Meetup"
+    date: "2024-04-20"
+    location: "Online"
+    type: workshop
+    upcoming: false
+    video: "https://youtube.com/your-link"
+    abstract: >
+      Description.

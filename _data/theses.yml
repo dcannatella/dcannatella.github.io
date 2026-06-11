@@ -1,0 +1,357 @@
+# ============================================================
+# theses.yml — MSc Graduation Projects supervised by Daniele Cannatella
+# Generated from TU Delft Pure repository export
+#
+# Fields: student, title, year, programme, institution, role,
+#         grade (optional), url, tags
+# ============================================================
+
+theses:
+  - student: G.J.I. ten Bosch
+    title: 'From Lost Streams to Living Landscapes: Investigating landscape-based
+      infrastructural futures for flood adaptation in Boston'
+    year: 2026
+    programme: MSc Urbanism
+    institution: TU Delft
+    role: ''
+    grade: ''
+    url: https://repository.tudelft.nl/record/uuid:7a3e90d1-1d7e-4839-85e7-af8cc1b01a12
+    tags:
+      - Landscape as infrastructure
+      - flood adaptation
+      - research by design
+      - socio-economic vulnerabilities
+  - student: R. Klinger
+    title: 'Vertical Blue: Designing the Subterranean Water System of Naples as a
+      Landscape Infrastructure for Socio-Ecological and Climate-Adaptive Public Spaces'
+    year: 2025
+    programme: MSc Landscape Architecture
+    institution: TU Delft
+    role: ''
+    grade: ''
+    url: https://repository.tudelft.nl/record/uuid:471610b4-3dab-467d-befc-aad6ca8a393c
+    tags:
+      - Blue Infrastructure
+      - Climate Shelter
+      - Landscape Architecture
+      - Landscape Infrastructure
+      - Landscape as a System
+  - student: S. Epema
+    title: 'Semantic urban river space delineation and typology: Defining and analyzing
+      the space around the urban river in the Netherlands'
+    year: 2025
+    programme: Geomatics Program
+    institution: TU Delft
+    role: ''
+    grade: ''
+    url: https://repository.tudelft.nl/record/uuid:7ecbabb5-9bc6-4725-a994-49db8929f79a
+    tags:
+      - delineation
+      - typology
+      - urban river space
+  - student: S.R.H.W. Tew
+    title: 'Leveraging Street Level Predictive Modelling with Green Infrastructure
+      for Urban Resilience'
+    year: 2025
+    programme: Geomatics Program
+    institution: TU Delft
+    role: ''
+    grade: ''
+    url: https://repository.tudelft.nl/record/uuid:aeca557e-a350-45af-9427-d7a503416129
+    tags: []
+  - student: X. Ma
+    title: 'Cultivating Commons: Reclaiming the Dike-fishponds for People and Ecology
+      in Pearl river delta area'
+    year: 2025
+    programme: MSc Landscape Architecture
+    institution: TU Delft
+    role: ''
+    grade: ''
+    url: https://repository.tudelft.nl/record/uuid:5e9cd494-a754-442b-9e28-d76266487c2d
+    tags:
+      - Community-based water infrastructure
+      - Polyculture landscape renewal
+      - Sociology of water
+      - dike-fishponds landscape
+  - student: X. Wang
+    title: 'From Glass to Grove: Exploring Westland’s Socio-Ecological Vision through
+      Wooded Commons'
+    year: 2025
+    programme: MSc Landscape Architecture
+    institution: TU Delft
+    role: ''
+    grade: ''
+    url: https://repository.tudelft.nl/record/uuid:f4b61270-1201-4435-ad64-e2a1cf2285b7
+    tags:
+      - Grove
+      - Resilience
+      - Social-ecological system
+      - Wooded Common
+  - student: B.L. Bakker
+    title: 'RICE | Reimagining the Integration of Cultivation and Ecosystems: Climate
+      adaptation strategies for the rice production landscape of Northern Italy: the
+      context of the Ticino, Sesia and Po rivers'
+    year: 2024
+    programme: MSc Urbanism
+    institution: TU Delft
+    role: ''
+    grade: ''
+    url: https://repository.tudelft.nl/record/uuid:d14cb63a-090a-411f-ae4b-c087e37996f8
+    tags:
+      - Climate change
+      - Ecological restoration
+      - Landscape Urbanism
+      - Research by design
+      - Seasonal dynamics
+  - student: M. van der Waal
+    title: 'Clean Corridors: A Data-Driven Design for Multi-Scale Green Infrastructure
+      Design'
+    year: 2024
+    programme: MSc Urbanism
+    institution: TU Delft
+    role: ''
+    grade: ''
+    url: https://repository.tudelft.nl/record/uuid:d102549d-7a36-471b-bac4-0846c62b66aa
+    tags:
+      - Data-driven Design
+      - GIS
+      - Green infrastructure
+      - Phytoremediation
+  - student: Y. Jin
+    title: 'Water resilient mosaic: Envisioning a co-evolutionary transformation of
+      territories-in-between in the BTH metropolitan region'
+    year: 2024
+    programme: MSc Urbanism
+    institution: TU Delft
+    role: ''
+    grade: ''
+    url: https://repository.tudelft.nl/record/uuid:9b3279b6-4509-4d6b-abf0-31a1001f49e5
+    tags:
+      - Dynamic Adaptive Policy Pathways (DAPP)
+      - Environmental justice
+      - Pattern languages
+      - Scenario making
+      - Water resilience
+  - student: Y. Zhang
+    title: 'Through lake and swamp: Urbanization process of Baiyangdian wetland: An
+      adaptive wetland production transformation'
+    year: 2023
+    programme: MSc Urbanism
+    institution: TU Delft
+    role: ''
+    grade: ''
+    url: https://repository.tudelft.nl/record/uuid:a03287aa-d65d-4c1d-8023-cfc6383dd3ab
+    tags:
+      - Agricultural landscape
+      - Productive Landscape
+      - Regional Development
+      - industrial transformation
+  - student: Y. Lu
+    title: 'From the water: Towards an adaptive landscape framework for sustainable
+      development of agricultural area on the west side of PRD'
+    year: 2023
+    programme: MSc Landscape Architecture
+    institution: TU Delft
+    role: ''
+    grade: ''
+    url: https://repository.tudelft.nl/record/uuid:932e8a81-7c70-461a-93bd-179210046add
+    tags:
+      - Pearl River Delta
+      - landscape framework
+      - landscape-based urbanism
+      - sustainable development
+      - traditional agriculture
+  - student: G.Credendino
+    title: 'The line in the Landscape: Exploring the social and spatial opportunities
+      of implementing innovative high speed railroad technology in the formation of
+      transport flowscapes in the Netherlands'
+    year: 2023
+    programme: MSc Landscape Architecture
+    institution: TU Delft
+    role: ''
+    grade: ''
+    url: https://repository.tudelft.nl/record/uuid:1bdef8d0-71ff-42ef-a66c-e31686b227bf
+    tags:
+      - Innovative Infrastructure
+      - Landscape architecture
+      - Railroad Technology
+      - Social Value
+  - student: J. Song
+    title: 'Toward Wildfire Alternatives: Mitigating Wildfire Risk Through Landscape-Based
+      Resilience'
+    year: 2023
+    programme: MSc Urbanism
+    institution: TU Delft
+    role: ''
+    grade: ''
+    url: https://repository.tudelft.nl/record/uuid:db2128f5-df8c-4b72-b480-bcc2047f8ded
+    tags:
+      - GIS-based
+      - Landscape resilience
+      - Landscape typology
+      - Mediterranean
+      - Natural disasters
+  - student: A.M. Hussain
+    title: 'Dhara - Directing Flows in Mumbai Through Landscape: A resilient blue-green
+      landscape framework towards hydrological, ecological and communal reinstation
+      for the Mumbai Estuarine Urbanscape'
+    year: 2022
+    programme: MSc Landscape Architecture
+    institution: TU Delft
+    role: ''
+    grade: ''
+    url: https://repository.tudelft.nl/record/uuid:dca1446b-a266-4b08-8576-a19ede3ff64c
+    tags:
+      - Ecological
+      - Landscape architecture
+      - Mumbai
+      - research by design
+      - resilience
+  - student: S. Drašković
+    title: 'Hybrid Morphologies: An Interdisciplinary Model for Waterfront Architecture
+      - The Case of Zwijndrecht'
+    year: 2021
+    programme: MSc Architecture
+    institution: TU Delft
+    role: ''
+    grade: ''
+    url: https://repository.tudelft.nl/record/uuid:893bb906-2181-41f4-803d-605e399784d2
+    tags:
+      - Climate Adaptation
+      - Ecology
+      - Flood Design
+      - Hybrid
+      - Morphology
+  - student: K. Murawska
+    title: 'Edges in transition: Spatial strategies for a regeneration of socio-ecological
+      systems along the Vistula River'
+    year: 2021
+    programme: MSc Urbanism
+    institution: TU Delft
+    role: ''
+    grade: ''
+    url: https://repository.tudelft.nl/record/uuid:727d5677-616e-4abf-a7a9-28ba4b176adb
+    tags:
+      - edge design
+      - landscape urbanism
+      - regeneration
+      - remediation
+      - socio-ecological systems
+  - student: Z. Zhang
+    title: 'Synergy through water, land and forestry systems: Towards evolutionary
+      socio-ecological resilience in Red River Delta, Vietnam'
+    year: 2021
+    programme: MSc Urbanism
+    institution: TU Delft
+    role: ''
+    grade: ''
+    url: https://repository.tudelft.nl/record/uuid:611fda37-7ca7-4c32-bccd-7f2715d05a29
+    tags:
+      - Adaptive Governance
+      - Ecosystem-based adaptation
+      - Red River Delta
+      - Socio-ecological Resilience
+      - Vietnam
+  - student: Y. Lin
+    title: 'Resilient Medway River Landscape: Adaptive Design Strategies for a Sustainable
+      Coastal Landscape'
+    year: 2021
+    programme: MSc EMU
+    institution: TU Delft
+    role: ''
+    grade: ''
+    url: https://repository.tudelft.nl/record/uuid:266901e4-a2f7-4c0c-aba9-48e3d0943a86
+    tags:
+      - Adaptive Planning and Design
+      - Estuary
+      - Isle of Sheppey
+      - Landscape-based Approach
+      - Medway River
+  - student: J. Heijnen
+    title: 'An exploration of Landscape Identity and Flood Safety, a delta dilemma?:
+      On the reconciliation of the anthropogenic and natural flux in the peat pasture
+      delta landscape through Building with Nature'
+    year: 2021
+    programme: MSc Urbanism
+    institution: TU Delft
+    role: ''
+    grade: ''
+    url: https://repository.tudelft.nl/record/uuid:388e3442-cc67-4e1b-ada1-22352f2b1bcf
+    tags:
+      - Building with Nature
+      - Flood Safety
+      - Landscape Identity
+  - student: M.M. Rani
+    title: 'Exploring New Productive Landscapes: Landscape-based spatial and temporal
+      planning and design of post-industrial areas along Foshan’s waterways'
+    year: 2020
+    programme: MSc Landscape Architecture
+    institution: TU Delft
+    role: ''
+    grade: ''
+    url: https://repository.tudelft.nl/record/uuid:58b53321-7978-4a0e-b319-11efdf7f6b48
+    tags:
+      - China
+      - Landscape Approach
+      - Landscape architecture
+      - Post-industrial
+      - Productive Landscape
+  - student: N. Garcia Vogt
+    title: 'Synchronizing habitat: Risk adaptation by co- evolution of environment
+      &amp; society'
+    year: 2020
+    programme: MSc Urbanism
+    institution: TU Delft
+    role: ''
+    grade: ''
+    url: https://repository.tudelft.nl/record/uuid:7ef409cd-cea9-4ef6-a496-8e4b607e08d0
+    tags:
+      - Ecosystem- based Adaptation
+      - Ecotone
+      - Hybrid habitat
+      - Natural processes
+      - Sea level rise
+  - student: B. Peters
+    title: 'Confronting the Norwegian Paradox: Decomposing socio-territorial conflicts
+      through modern and indigenous worldviews on time and space in Finnmark, Norway'
+    year: 2020
+    programme: MSc Urbanism
+    institution: TU Delft
+    role: ''
+    grade: ''
+    url: https://repository.tudelft.nl/record/uuid:b227b74a-eaeb-44b2-a527-ccddd9a720c9
+    tags:
+      - Arctic Norway
+      - Finnmark
+      - Hammerfest
+      - Indigeneity
+      - Oil industry
+  - student: X. Zhao
+    title: 'From Segregation to Integration: Planning and Designing for the Enhancement
+      of Socio-spatial and Ecological Integration in Haizhu District, China'
+    year: 2020
+    programme: MSc Landscape Architecture
+    institution: TU Delft
+    role: ''
+    grade: ''
+    url: https://repository.tudelft.nl/record/uuid:0ed7910f-98e7-4b12-b99d-36f0903d8806
+    tags:
+      - Integration
+      - Public space
+      - Socio-ecological network
+      - Socio-spatial segregation
+      - Transformation
+  - student: R.W. Leung
+    title: 'Adapting to Uncertainty: Re-thinking Critical Infrastructural Systems'
+    year: 2019
+    programme: MSc Urbanism
+    institution: TU Delft
+    role: ''
+    grade: ''
+    url: https://repository.tudelft.nl/record/uuid:e0b512c3-f25d-4668-a3d4-96d7b0ce234b
+    tags:
+      - Adaptive design
+      - contingency planning
+      - critical infrastructure
+      - deep uncertainty
+      - risk management

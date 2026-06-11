@@ -1,0 +1,54 @@
+# ============================================================
+# projects.yml
+# Edit this file to update the Research page.
+#
+# Fields:
+#   title       (required)
+#   years       e.g. "2024 — ongoing"
+#   funder      funding body
+#   partners    list of partner organisations
+#   description 2–4 sentences
+#   tags        keyword list
+
+#   image       path to image in images/
+#   links       list of {label, url}
+# ============================================================
+
+current:
+  - title: "PAST-FORWARD"
+    years: "2026 — ongoing"
+    funder: "NWO"
+    partners:
+      - "TU Delft"
+      - "Erasmus School of Law"
+      - "South China University of Technology"
+      - "Xi'an Architecture"
+    description: >
+      Describe the project here — what is the core research question?
+      What methods are you using? What does it aim to achieve?
+    tags: [Historical Urban Areas, Climate Adaptation, Spatial Analysis]
+    image: "images/project-1.jpg"
+    links:
+      - label: "Project page"
+        url: "#"
+
+  - title: "Digital Heat Hub"
+    years: "2025 — ongoing"
+    funder: "Funder"
+    description: >
+      Description.
+    tags: [Nature-based Solutions, Landscape, R]
+    links:
+      - label: "Read more"
+        url: "#"
+
+past:
+  - title: "HIA"
+    years: "2021 — 2023"
+    funder: "Funder"
+    description: >
+      Description of completed project — focus, methods, outcomes.
+    tags: [Spatial Analysis, Urban Planning]
+    links:
+      - label: "Publication"
+        url: "#"

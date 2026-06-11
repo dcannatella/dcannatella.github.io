@@ -1,0 +1,85 @@
+---
+title: " "
+page-layout: full
+toc: false
+---
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+library(yaml); library(glue)
+
+find_data <- function(f) {
+  p <- file.path("_data", f); if (file.exists(p)) return(p)
+  p2 <- file.path("..", "_data", f); if (file.exists(p2)) return(p2)
+  stop(paste("Cannot find", f))
+}
+
+proj <- yaml::read_yaml(find_data("projects.yml"))
+
+render_tags <- function(tags) {
+  if (is.null(tags)) return("")
+  spans <- paste0('<span class="dc-tag">', tags, '</span>', collapse=" ")
+  paste0('<div class="dc-tag-row" style="margin-top:1rem;">', spans, '</div>')
+}
+
+render_links <- function(links) {
+  if (is.null(links)) return("")
+  items <- sapply(links, function(l) glue('<a class="dc-btn dc-btn-outline" href="{l$url}" target="_blank" style="font-size:0.5rem;">{l$label} &rarr;</a>'))
+  paste0('<div class="dc-btns" style="margin-top:1.25rem;">', paste(items), '</div>')
+}
+
+render_project <- function(p, is_past=FALSE) {
+  past_style <- if (is_past) "opacity:0.8;" else ""
+  active_badge <- if (!is_past) '<span class="dc-badge" style="margin-bottom:0.75rem;display:inline-flex;"><span class="dc-badge-dot"></span>Now &middot; Active</span><br>' else ""
+  funder <- if (!is.null(p$funder)) glue('<span style="font-family:var(--f-mono);font-size:0.58rem;color:var(--muted);display:block;margin-bottom:0.2rem;">Funder: {p$funder}</span>') else ""
+  partners <- if (!is.null(p$partners)) glue('<span style="font-family:var(--f-mono);font-size:0.58rem;color:var(--muted);display:block;margin-bottom:0.75rem;">Partners: {paste(p$partners,collapse=" · ")}</span>') else ""
+  glue('
+<div class="dc-card" style="margin-bottom:1px;{past_style}">
+  {active_badge}
+  <div style="font-family:var(--f-mono);font-size:0.56rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--forest-2);margin-bottom:0.5rem;">{p$years}</div>
+  <h3 style="font-family:var(--f-display);font-weight:700;font-size:1.1rem;letter-spacing:-0.02em;color:var(--ink);margin-bottom:0.6rem;">{p$title}</h3>
+  {funder}{partners}
+  <p style="font-family:var(--f-display);font-size:0.82rem;line-height:1.8;color:var(--muted);margin-bottom:0;">{p$description}</p>
+  {render_tags(p$tags)}
+  {render_links(p$links)}
+</div>')
+}
+```
+
+```{=html}
+<div style="max-width:1300px;margin:0 auto;">
+
+<!-- Header -->
+<div style="padding:5rem 4rem 3rem;border-bottom:1px solid var(--border-md);">
+  <div class="dc-eyebrow">Research</div>
+  <h1 class="dc-heading" style="font-size:clamp(2.5rem,4vw,3.75rem);margin-bottom:1.5rem;">
+    How cities <em class="dc-heading-em">adapt.</em>
+  </h1>
+  <p class="dc-body" style="max-width:640px;">
+    My research uses spatial data to understand urban resilience and design landscape-based adaptation strategies — making evidence faster, cheaper, and more replicable than before. Automated digital workflows allow analysis to scale across geographies that would otherwise lack the resources to act.
+  </p>
+</div>
+```
+
+```{r}
+#| echo: false
+#| output: asis
+
+cat('<div style="padding:3rem 4rem;">')
+
+# Current
+cat('<div class="dc-divider"><span class="dc-divider-label">01 — Current Projects</span><div class="dc-divider-line"></div></div>')
+for (p in proj$current) cat(render_project(p, is_past=FALSE), "\n")
+
+# Past
+cat('<div class="dc-divider" style="margin-top:4rem;"><span class="dc-divider-label">02 — Past Research</span><div class="dc-divider-line"></div></div>')
+for (p in proj$past) cat(render_project(p, is_past=TRUE), "\n")
+
+cat('</div>')
+```
+
+```{=html}
+</div>
+```
